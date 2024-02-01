@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link href="styles.css" rel="stylesheet">
+    <link href="styles_card.css" rel="stylesheet">
+    <link href="styles_popup.css" rel="stylesheet">
+    <title>Inleiding</title>
+    <!-- javascript voor popup -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var myButton = document.getElementById('myButton');
+            var myPopup = document.getElementById('myPopup');
+            var closePopup = document.getElementById('closePopup');
+
+            myButton.addEventListener("click", function () {
+                myPopup.classList.add("show");
+            });
+
+            closePopup.addEventListener("click", function () {
+                myPopup.classList.remove("show");
+            });
+
+            window.addEventListener("click", function (event) {
+                if (event.target == myPopup) {
+                    myPopup.classList.remove("show");
+                }
+            });
+        });
+    </script>
+    
+</head>
+<body>
+
+    <div class = "center-block">
+        <a class="line" href="cookies_home.html"> 
+            <img src="APC.jpg"height="75" width="75">
+        </a> 
+    
+        <div class="dropdown margin-menu">
+            <a href="inleiding.html" class="nav-link dropbtn">Inleiding</a>
+        </div>
+    
+        <div class="dropdown margin-menu">
+            <a href="methode.html" class="nav-link dropbtn">Methode</a>
+        </div>
+    
+    
+        <div class="dropdown margin-menu">
+            <a href="deelvragen.html" class="nav-link active dropbtn">Deelvragen <span><i class="arrow_active down"></i></span></a>
+            <div class="dropdown-content">
+                <a href="deelvraag1.html" class="nav-link">Deelvraag 1</a>
+                <a href="deelvraag2.html" class="nav-link active">Deelvraag 2</a>
+                <a href="deelvraag3.html" class="nav-link">Deelvraag 3</a>
+                <a href="deelvraag4.html" class="nav-link">Deelvraag 4</a>
+                <a href="deelvraag5.html" class="nav-link">Deelvraag 5</a>
+            </div>
+        </div>
+    
+        <div class="dropdown margin-menu">
+            <a href="hoofdvraag.html" class="nav-link dropbtn">Hoofdvraag</a>
+        </div>
+
+        <div class="dropdown margin-menu">
+            <a href="Conclusie.html" class="nav-link dropbtn">Conclusie</a>
+        </div>
+    
+        <div class="dropdown margin-menu">
+            <a href="dataset.html" class="nav-link dropbtn">Dataset</a>
+        </div>
+    
+        <div class="dropdown margin-menu">
+            <a href="APC.html" class="nav-link dropbtn">Over APC nieuws</a>
+        </div>
+
+        <div class="dropdown margin-menu">
+            <a href="literatuur.html" class="nav-link dropbtn">Literatuur</a>
+        </div>
+    
+        
+    </div>
+    
+    <p class="line"></p>
+
+
+
+<!--afbeelding deelvraag en bijhorende tekst-->
+<p class="white-banner-top"> </p>
+
+<div class="image-container margin">
+    <img src="deelvraag2.jpg" width="800" height="450" class="edges">
+    <div class="text-overlay">(Zhu, 2021)</div>
+</div>
+<p class="white-banner-foto"></p>
+<p class="APC">APC Nieuws • Maandag 29 januari, 12:31 </p>
+
+<h1 class="margin">Welke dark patterns, indien aanwezig, worden in het cookiebeleid van de nieuwswebsite geïdentificeerd?</h1>
+<p class="white-banner-foto"></p>
+
+<!--antwoord deelvraag-->
+<div class="center-block_nieuwsbericht">
+    <div>
+        Volgens Gray et al., (2018) zijn er verschillende dark patterns als het gaat om UX design. Dit zijn UX-elementen 
+        die zorgvuldig zijn ontworpen om gebruikers dingen te laten doen die vaak niet in hun belang zijn. Een onderzoek 
+        van Soe et al. (2020) naar dark patterns bij de cookiebanners van online nieuwsmedia wijst uit dat deze hier 
+        regelmatig voorkomen. Er wordt hiervoor de volgende classificatie gehanteerd:
+        <br><br>
+    </div>
+<!-- card nagging-->
+<div class="image-container"> 
+        <article class="card_nagging">
+            <p class="grey_border_20"></p>
+                <p class="tussenkop margin_card">Nagging</p>
+                <div class = "margin_card">
+                    Een kleine afwijking van de verwachte functionaliteit die mogelijk aanhoudt gedurende één of meerdere 
+                    interacties. Zeuren manifesteert zich vaak als een herhaalde onderbreking tijdens normale interactie, 
+                    waarbij de gewenste taak van de gebruiker één of meerdere keren wordt onderbroken door andere taken die
+                        niet direct verband houden met waar de gebruiker zich op richt. 
+                        <span class="margin_popup">
+                        <button id="myButton" class="style">
+                            Klik hier voor een voorbeeld
+                        </button>
+                        <div id="myPopup" class="popup">
+                            <div class="popup-content">
+                                <h3>
+                                    Voorbeeld nagging
+                                </h3>
+                                <div class="image-container">
+                                    <img src="nagging.png" width="300" height="141" class="margin">
+                                    <div class="text-overlay">(Nicoll, 2020)</div>
+                                </div>
+
+                                <br><br>
+                                <button id="closePopup" class="style">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+                </p>
+        </article>
+</div>
+<br><br>
+
+<!-- card Obstruction-->
+<div class="image-container"> 
+    <article class="card_obstruction">
+        <p class="grey_border_20"></p>
+            <p class="tussenkop margin_card">Obstruction</p>
+            <div class = "margin_card">
+                Het verhinderen van een taakstroom, waardoor een interactie moeilijker wordt dan inherent nodig is 
+                met de bedoeling een actie af te raden. Belemmering manifesteert zich vaak als een belangrijke barrière 
+                voor een specifieke taak die de gebruiker wil voltooien.<br>
+                    <span class="margin_popup">
+                    <button id="myButton" class="style">
+                        Klik hier voor een voorbeeld
+                    </button>
+                    <div id="myPopup" class="popup">
+                        <div class="popup-content">
+                            <h3>
+                                Voorbeeld obstruction
+                            </h3>
+                            <div class="image-container">
+                                <img src="obstruction.png" width="300" height="141" class="margin">
+                                <div class="text-overlay">(Nicoll, 2020)</div>
+                            </div>
+
+                            <br><br>
+                            <button id="closePopup" class="style">
+                                Close
+                            </button>
+                        </div>
+                    </div>
+                </span>
+            </div>
+            </p>
+    </article>
+</div>
+<br><br>
+
+<!--cards met deelvragen-->
+      <!--deelvraag 2-->
+      <div class="image-container">
+        <a class="line color" href="deelvraag2.html">  
+            <article class="card_deelvraag">
+                    <p class="content-with-image">
+                        <span class="text-content">Deelvraag 2: Welke dark patterns, indien aanwezig, worden in het cookiebeleid van de nieuwswebsite geïdentificeerd?</span>
+                        <img src="deelvraag2.jpg" width="100" height="84" class="edges margin">
+                    </p>
+            </article>
+        </a>
+    </div>
+    <!--deelvraag 3-->
+    <div class="image-container">
+        <a class="line color" href="deelvraag3.html">  
+            <article class="card_deelvraag">
+                    <p class="content-with-image">
+                        <span class="text-content">Deelvraag 3: In hoeverre beïnvloeden cookies de autonomie van gebruikers op nieuwswebsites?</span>
+                        <img src="deelvraag3.jpg" width="100" height="84" class="edges margin">
+                    </p>
+            </article>
+        </a>
+    </div>
+    <br>
+    <br>
+    <!--volgende button-->
+    <div class="image-container">
+        <a class="line color" href="deelvraag2.html">  
+            <article class="card_volgende">
+                    <p class="content-with-image">
+                        <img src="laptop.png" width="40" height="34" class="edges">
+                        <span class="text-content margin"> Volgende deelvraag &#x2192; </span>
+                    </p>
+            </article>
+        </a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+</div>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
