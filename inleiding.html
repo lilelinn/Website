@@ -2,22 +2,23 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link href="styles.css" rel="stylesheet">
-    <link href="styles_card.css" rel="stylesheet">
-    <title>Inleiding</title>
+    <link href="CSS_files/style_menu.css" rel="stylesheet">
+    <link href="CSS_files/style_images.css" rel="stylesheet">
+    <link href="CSS_files/style_newsarticle.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
 </head>
-<body>
-  
+<header>
+<br>
+<div class="center-block">   
+<!-- Logo that links to the homepage -->
+    <a class="line" href="index.html"> 
+        <img src="images/APC.jpg" height="75px" width="75px" alt="APC Logo">
+    </a> 
 
-
-<!--Menu items-->
-<div class = "center-block">
-    <a class="line" href="cookies_home.html"> 
-    <img src="APC.jpg"height="75" width="75">
-   </a> 
-
+    <!--Menu Items -->
     <div class="dropdown margin-menu">
-        <a href="inleiding.html" class="nav-link active dropbtn">Inleiding</a>
+        <a href="inleiding.html" class="nav-link dropbtn active">Inleiding</a>
     </div>
 
     <div class="dropdown margin-menu">
@@ -25,18 +26,14 @@
     </div>
 
     <div class="dropdown margin-menu">
-        <a href="deelvragen.html" class="nav-link dropbtn">Deelvragen <span><i class="arrow down"></i></span></a>
+        <a href="deelvragen.html" class="nav-link dropbtn">Deelvragen <span class="arrow down"></span></a>
         <div class="dropdown-content">
-            <a href="deelvraag1.html">Deelvraag 1</a>
-            <a href="deelvraag2.html">Deelvraag 2</a>
-            <a href="deelvraag3.html">Deelvraag 3</a>
-            <a href="deelvraag4.html">Deelvraag 4</a>
-            <a href="deelvraag5.html">Deelvraag 5</a>
+            <a href="deelvraag1.html" class="nav-link">Deelvraag 1</a>
+            <a href="deelvraag2.html" class="nav-link">Deelvraag 2</a>
+            <a href="deelvraag3.html" class="nav-link">Deelvraag 3</a>
+            <a href="deelvraag4.html" class="nav-link">Deelvraag 4</a>
+            <a href="deelvraag5.html" class="nav-link">Deelvraag 5</a>
         </div>
-    </div>
-
-    <div class="dropdown margin-menu">
-        <a href="hoofdvraag.html" class="nav-link dropbtn">Hoofdvraag</a>
     </div>
 
     <div class="dropdown margin-menu">
@@ -56,75 +53,147 @@
     </div>
     </div>
 
-    <p class="line"></p>
+    <p class="menu_line"></p>
+</header>
 
-    <!--afbeelding deelvraag en bijhorende tekst-->
-    <p class="white-banner-top"> </p>
+<!--nieuwsartikel-->
+<body>
+<!--afbeelding deelvraag en bijhorende tekst-->
+<p class="white-banner-top"> </p>
 
-    <div class="image-container margin">
-        <img src="inleiding.jpg" width="800" height="450" class="edges">
-        <div class="text-overlay">(Koninklijke Horeca Nederland, z.d.)</div>
-    </div>
-    <p class="white-banner-foto"></p>
-    <p class="APC">APC Nieuws • Maandag 18 januari, 15:35 </p>
-
-    <h1 class="margin">Nieuwswebsites maken massaal gebruik van tracking cookies </h1>
-
-
-    <br<br>>
-    <div class="center-block_nieuwsbericht">
-        Voordat gekeken kan worden naar de meest bezochte Nederlandse nieuwswebsites moet eerst 
-        worden bepaald wat wordt verstaan onder een nieuwswebsite. Een website is een nieuwswebsite 
-        als het nieuws aanbiedt. Nieuws is actueel. Artikelen van een maand oud zijn doorgaans geen nieuws meer. 
-        Verder moet nieuws belangrijk zijn voor een grote groep mensen. Daarnaast kunnen zeldzame gebeurtenissen 
-        worden geclassificeerd als nieuws. Zo is een hond die een man bijt geen nieuws, maar een man die een hond 
-        bijt wel. Ook zijn conflicten nieuws, waarbij de regionale media conflicten meer zullen behandelen dan de 
-        landelijke media. Dat wat dichtbij is, is eenmaal nieuwswaardiger dan wat er ver weg gebeurt. 
-        Tot slot hebben emotie en menselijke interesses ook nieuwswaarde (Maastricht University, z.d.).  Aan de hand 
-        van deze definities van nieuws is bepaald welke websites nieuws aanbieden en welke niet.
-        <br><br>
-	Op basis van eerdere onderzoeken is er een top 20 opgesteld van de meest bezochte nieuwswebsites 
-    van Nederland. Er is hierbij gebruikgemaakt van een database van Nationale Media Onderzoek, waarin wordt 
-    bijgehouden hoeveel bezoekers websites in Nederland per maand hebben (Nationaal Media Onderzoek, 2024). 
-    Ook is er gebruikgemaakt van een onderzoek van Consultancy.nl (2018) waarin gekeken is naar de 80 grootste websites 
-    in 2018. Uit deze twee onderzoeken is een top 20 nieuwswebsites gekomen met per website het gemiddelde aantal bezoekers 
-    per maand:
-    <br><br>
-
-    <div class="image-container"> 
-        <article class="card_inleiding">
-            <p class="grey_border_20"></p>
-                <p class="tussenkop margin_card">Top 20 grootste nieuwswebsites Nederland</p>
-                <div class = "margin_card">
-                    1. NOS (6.400.000 bezoekers)<br>
-                    2. Algemeen Dagblad (6.225.000 bezoekers)<br>
-                    3. RTL nieuws (5.275.000 bezoekers)<br>
-                    4. NU.nl (4.858.000 bezoekers)<br>
-                    5. De Telegraaf (4.468.000 bezoekers)<br>
-                    6. De Gelderlander (2.038.000 bezoekers)<br>
-                    7. indebuurt (1.879.000 bezoekers)<br>
-                    8. Metro (1.825.000 bezoekers)<br>
-                    9. de Volkskrant (1.578.000 bezoekers)<br>
-                    10. NRC (1.538.000 bezoekers)<br>
-                    11. de Stentor (1.481.000 bezoekers)<br>
-                    12. Hart van Nederland (1.464.000 bezoekers)<br>
-                    13. Het parool (1.137.000 bezoekers)<br>
-                    14. Brabants Dagblad (902.000 bezoekers)<br>
-                    15. BNR (810.000 bezoekers)<br>
-                    16. Tubantia (685.000 bezoekers)<br>
-                    17. BN DeStem (684.000 bezoekers)<br>
-                    18. Trouw (601.000 bezoekers)<br>
-                    19. Eindhovens Dagblad (566.000 bezoekers)<br>
-                    20. Noordhollands Dagblad (529.000 bezoekers)<br>
-                </div>
-                </p>
-        </article>
+<div class="image-container margin">
+    <img src="images/inleiding.jpg" width="800" height="450">
+    <div class="text-overlay">(Koninklijke Horeca Nederland, z.d.)</div>
 </div>
+<p class="white-banner-foto"></p>
+<p class="APC">APC Nieuws • Maandag 8 januari, 15:35 </p>
 
+<h1 class="margin">Nieuwswebsites maken massaal gebruik van tracking cookies </h1>
+
+
+<br<br>
+<!-- tekst inleiding-->
+    <div class="center-block_nieuwsbericht">
+        Volgens het onderzoek van de Volkskrant (2020) behoren Nederlandse nieuwswebsites tot de grootste dataverzamelaars 
+        van Europa. De websites verzamelen via cookies informatie over de interesses van hun gebruikers. Hoewel betaalmuren 
+        de laatste jaren zijn toegenomen, lijken nieuwswebsites nog steeds afhankelijk te zijn van cookies en andere technieken
+        om het gedrag van hun bezoekers te kunnen volgen. Ook zijn adverteerders geïnteresseerd in het verzamelen van dit soort 
+        informatie. In Nederland vormt de website van de NOS een uitzondering, omdat op deze website slechts één tracker aanwezig
+        is. Vergelijkbare patronen zijn ook terug te vinden bij andere websites in Europa die worden ondersteund met publieke 
+        financiering. Wat vaak wordt teruggevonden is dat hoe meer trackers op een website aanwezig zijn, hoe meer commerciële 
+        partijen te weten kunnen komen over het internetgebruik van gebruikers (Verhagen, 2020).
+
+        <br><br>
+        Uit het onderzoek van de Princeton Universiteit (2016) bleek dat in 2016 nieuwswebsites in de Verenigde Staten de grootste
+        verzamelaars waren van internetgegevens van hun bezoekers.  Deze gegevensverzameling werd voornamelijk bereikt door het plaatsen 
+        van advertentiecookies. Hierbij gaven de onderzoekers als verklaring dat nieuwswebsites afhankelijker zijn van advertenties dan
+        andere categorieën, omdat veel nieuws gratis wordt aangeboden (Englehardt & Narayanan, 2016). 
+        <br><br>
+        Eveneens in Nederland maakten nieuwswebsites in 2020 massaal gebruik van cookies om hun gebruikers te kunnen volgen. Desondanks is 
+        het cruciaal voor nieuwswebsites om te voldoen aan de overheidsregels. Daarnaast is het belangrijk voor gebruikers om bewust te 
+        blijven van hun autonomie en privacy wanneer ze nieuwswebsites bezoeken. Daarom wordt in dit onderzoek de volgende onderzoeksvraag 
+        beantwoord: “In hoeverre waarborgt het cookiebeleid van prominente Nederlandse nieuwswebsites de autonomie en privacy van gebruikers?”.
+        Verschillende hypothesen kunnen relevant zijn voor het beantwoorden van deze onderzoeksvraag. Zo kunnen Nederlandse nieuwswebsites 
+        zich bewust zijn van de groeiende bezorgdheid over privacy en streven naar transparante en beperkte gegevensverzameling, waardoor 
+        het cookiebeleid van deze websites in hoge mate de autonomie en privacy van gebruikers waarborgt. Daarentegen kunnen Nederlandse 
+        nieuwswebsites meer de focus leggen op het verzamelen van gegevens voor commerciële doeleinden dan op het waarborgen van privacy,
+        waardoor het cookiebeleid van deze websites de autonomie en privacy van gebruikers onvoldoende waarborgt. Nederlandse nieuwswebsites
+        kunnen ook zowel een groeiende bezorgdheid over privacy als financiële belangen hebben, waardoor het cookiebeleid van deze websites 
+        de autonomie en privacy van gebruikers gemiddeld waarborgen. Om deze hypothesen te onderzoeken en een antwoord op de onderzoeksvraag
+        te formuleren, is een empirisch onderzoek uitgevoerd. Hiervoor is er eerst gekeken naar wat er wordt verstaan onder een nieuwswebsite.
+        <br><Br>
+        
+        <p class="tussenkop"> Wat is een nieuwswebsite?</p>
+        Een website is een nieuwswebsite als het nieuws aanbiedt. Hierbij hoort nieuws actueel te zijn en zijn artikelen van een maand oud 
+        geen nieuws meer. Verder moet nieuws belangrijk zijn voor een grote groep mensen. Daarnaast kunnen zeldzame gebeurtenissen worden 
+        geclassificeerd als nieuws. Zo is een hond die een man bijt geen nieuws, maar een man die een hond bijt wel. Bovendien vallen conflicten
+        onder nieuws, waarbij de regionale media conflicten meer zullen behandelen dan de landelijke media. Dat wat dichtbij is, is eenmaal 
+        nieuwswaardiger dan wat er ver weg plaatsvindt. Tot slot hebben menselijke emoties en interesses ook nieuwswaarde (Maastricht University, z.d.).  Aan de hand van deze definities van nieuws is bepaald welke websites nieuws aanbieden en welke niet.
+        <br><Br>
+        Gebaseerd op eerder onderzoek is een ranglijst samengesteld met de twintig meest bezochte nieuwswebsites in Nederland. Hierbij is er 
+        gebruikgemaakt van een database van Nationale Media Onderzoek, waarin maandelijks het aantal bezoekers van websites in Nederland wordt 
+        bijgehouden (Nationaal Media Onderzoek, 2024). Ook is er gebruikgemaakt van een onderzoek van Consultancy (2018), waarbij er is gekeken
+         naar de 80 grootste websites in 2018. Op basis van deze twee onderzoeken is een top 20 nieuwswebsites samengesteld, met per website 
+        het gemiddelde aantal bezoekers per maand:
+        <iframe src="graphs/barplot_bezoekers_nieuwsmedia.html" width="800" height="600"></iframe>
+        <br><br>
+        <p class="tussenkop">Deelvragen</p>
+        Met behulp van de geformuleerde hypothesen en top 20 nieuwswebsites is de onderzoeksvraag opgesplitst in vijf subvragen, met als doel 
+        een antwoord te formuleren op de onderzoeksvraag:<br><br>
+    <!--cards met deelvragen-->
+    <!--deelvraag 1-->
+    <div class="image-container">
+        <a class="line color" href="deelvraag1.html">  
+            <article class="card_deelvraag">
+                    <p class="content-with-image">
+                        <span class="text-content">Deelvraag 1: Welke soorten cookies worden in het cookiebeleid van de nieuwswebsite gehanteerd?</span>
+                        <img src="images/deelvraag1.png" width="100" height="84" class="margin">
+                    </p>
+            </article>
+        </a>
     </div>
+    <!--deelvraag 2-->
+    <div class="image-container">
+        <a class="line color" href="deelvraag2.html">  
+            <article class="card_deelvraag">
+                    <p class="content-with-image">
+                        <span class="text-content">Deelvraag 2: Welke dark patterns, indien aanwezig, worden in het cookiebeleid 
+                            van de nieuwswebsite geïdentificeerd?</span>
+                        <img src="images/deelvraag2.jpg" width="100" height="84" class="edges margin">
+                    </p>
+            </article>
+        </a>
+    </div>
+
+    <!--deelvraag 3-->
+    <div class="image-container">
+        <a class="line color" href="deelvraag3.html">  
+            <article class="card_deelvraag">
+                    <p class="content-with-image">
+                        <span class="text-content">Deelvraag 3: In hoeverre beïnvloeden cookies de autonomie van gebruikers op nieuwswebsites?</span>
+                        <img src="images/deelvraag3.jpg" width="100" height="84" class="edges margin">
+                    </p>
+            </article>
+        </a>
+    </div>
+
+    <!--deelvraag 4-->
+    <div class="image-container">
+        <a class="line color" href="deelvraag4.html">  
+            <article class="card_deelvraag">
+                    <p class="content-with-image">
+                        <span class="text-content">Deelvraag 4: In hoeverre kan de gebruiker zijn privacy waarborgen door alle niet-essentiële cookies af te wijzen op de nieuwswebsite?</span>
+                        <img src="images/deelvraag4.png" width="100" height="84" class="edges margin">
+                    </p>
+            </article>
+        </a>
+    </div>
+
+    <!--deelvraag 5-->
+    <div class="image-container">
+        <a class="line color" href="deelvraag5.html">  
+            <article class="card_deelvraag">
+                    <p class="content-with-image">
+                        <span class="text-content">Deelvraag 5: In hoeverre voldoet de cookieverklaring van de nieuwswebsite aan de wettelijke eisen van de Algemene Verordening Gegevensbescherming (AVG)?
+                        </span>
+                        <img src="images/deelvraag5.png" width="100" height="84" class="edges margin">
+                    </p>
+            </article>
+        </a>
+    </div>
+    <br>
+    <br>
+    Voor elke deelvraag zijn de relevante aspecten van de desbetreffende deelvraag toegelicht, gevolgd door een korte uitleg van de analysemethode 
+    die gebruikt is om de desbetreffende deelvraag te beantwoorden. Daarna werden de resultaten van de desbetreffende deelvraag behandeld. 
+    Op basis van de resultaten van deze deelvragen is een conclusie geformuleerd, die tevens diende als een antwoord op de onderzoeksvraag.
+    <br><br><br>
+    </div>    
+            
+
+
+        
     
+
 
 
 </body>
-
-    

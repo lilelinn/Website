@@ -1,0 +1,115 @@
+
+.white-banner-top{
+    height:1px;
+    background-color: white; 
+    background-size: cover;
+  }
+  
+  div.margin{
+    margin-left:340px;
+  }
+
+  /* voor bronvermelding afbeelding */
+.text-overlay {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+    font-family: helvetica;
+    font-size:14px;
+    padding:8px;
+    background-color: black;
+    border-radius:20px;
+  }
+
+  p.white-banner-foto{
+    height:10px;
+    background-color: white; 
+    background-size: cover;
+  }
+
+  h1.margin {
+    margin-left: auto;
+    margin-right: auto;
+    width: 48%;
+    font-size: 24px;
+    font-weight:bold;
+  }
+
+  /* is voor APC nieuws regel */
+p.APC{
+    margin-left: auto;
+    margin-right: auto;
+    width: 48%;
+    font-family:helvetica;
+    font-size: 11px;
+    color: #808080;
+    font-weight: bolder;
+  
+  }
+
+  div.center-block_nieuwsbericht {
+    margin-left: auto;
+    margin-right: auto;
+    width: 48%;
+    align-content: center center; /* or any specific width */
+  }
+
+  div.center-block_dataset {
+    margin-left: auto;
+    margin-right: auto;
+    width: 55%;
+  }
+
+  p.tussenkop{
+    font-size: 18x;
+    font-weight: bold;
+  }
+
+  .card_inleiding {
+    font-family: helvetica;
+    width: 700px;
+    height: 580px;
+    background: #f3f3f0;
+    flex-direction: column;
+    transition: 0.2s;
+  }
+  
+  .card_deelvraag {
+    font-family: helvetica;
+    width: 700px;
+    min-width: 300px;
+    height: 100px;
+    background: white;
+    border-radius:5px;
+    box-shadow: 0 0 1rem rgba(204, 198, 198, 0.793);
+    flex-direction: column;
+    transition: 0.2s;
+  }
+  
+  .content-with-image {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+    justify-content: space-between; /* Space between text and image */
+    margin-left:20px;
+    margin-top:10px;
+  }
+  
+  img.margin{
+    margin-top: 10px;
+    margin-right:10px;
+  }
+
+  
+
+  
+
+  a.doorverwijzing{
+    color:black;
+  }
+
+  p.tussenkop2{
+    font-size: 12x;
+    color:#bc0031;
+    font-weight:bold;
+  }

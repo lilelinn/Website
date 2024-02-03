@@ -2,19 +2,19 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link href="styles.css" rel="stylesheet">
-    <link href="styles_card.css" rel="stylesheet">
+    <link href="CSS_files/style_menu.css" rel="stylesheet">
+    <link href="CSS_files/style_images.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
 </head>
-<body>
-
-<!--Menu items-->
-<div class = "center-block">
+<header>
+<div class="center-block">   
+<!-- Logo that links to the homepage -->
     <a class="line" href="index.html"> 
-        <img src="APC.jpg"height="75" width="75">
+        <img src="images/APC.jpg" height="75px" width="75px" alt="APC Logo">
     </a> 
 
+    <!--Menu Items -->
     <div class="dropdown margin-menu">
         <a href="inleiding.html" class="nav-link dropbtn">Inleiding</a>
     </div>
@@ -23,9 +23,8 @@
         <a href="methode.html" class="nav-link dropbtn">Methode</a>
     </div>
 
-
     <div class="dropdown margin-menu">
-        <a href="deelvragen.html" class="nav-link dropbtn">Deelvragen <span><i class="arrow_active down"></i></span></a>
+        <a href="deelvragen.html" class="nav-link dropbtn">Deelvragen <span class="arrow down"></span></a>
         <div class="dropdown-content">
             <a href="deelvraag1.html" class="nav-link">Deelvraag 1</a>
             <a href="deelvraag2.html" class="nav-link">Deelvraag 2</a>
@@ -34,7 +33,6 @@
             <a href="deelvraag5.html" class="nav-link">Deelvraag 5</a>
         </div>
     </div>
-
 
     <div class="dropdown margin-menu">
         <a href="Conclusie.html" class="nav-link dropbtn">Conclusie</a>
@@ -51,90 +49,96 @@
     <div class="dropdown margin-menu">
         <a href="literatuur.html" class="nav-link dropbtn">Literatuur</a>
     </div>
+    </div>
 
-    
-</div>
+    <p class="menu_line"></p>
+</header>
+<body>
+<!--nieuwsberichten groot-->
+    <div class="center-block-homepage">
+        <!--Card deelvraag 1-->
+        <div class="image-container">
+            <a class="line" href="deelvraag1.html">
+                <img src="images/deelvraag1.png" width="513" height="344" style="margin-right: 40px;">
+                <div class="text-overlay_pad">
+                    Deelvraag 1
+                </div>
+                <div class="text-overlay_question">
+                    Welke soorten cookies worden in het cookiebeleid van de nieuwswebsite gehanteerd?
+                </div>
+            </a>
+        </div>
 
-<p class="line"></p>
-
-   <div class="center-block-homepage">
+        <!--Card deelvraag 2-->
         <div class="image-container">
             <a class="line" href="deelvraag2.html">
-                <img src="deelvraag2.jpg" width="513" height="298" class="margin_right edges">
+                <img src="images/deelvraag2.jpg" width="513" height="344">
                 <div class="text-overlay_pad">
                     Deelvraag 2
                 </div>
                 <div class="text-overlay_question">
-                    Welke dark patterns, indien aanwezig, worden in het cookiebeleid van de nieuwswebsite geïdentificeerd?
+                    Welke dark patterns, indien aanwezig, worden in het <br>cookiebeleid van de nieuwswebsite geïdentificeerd?
                 </div>
             </a>
         </div>
-        <div class="image-container">
-            <a class="line" href="deelvraag3.html">
-                <img src="deelvraag3.jpg" width="513" height="298" class="edges">
-                <div class="text-overlay_pad">
-                    Deelvraag 3
-                </div>
-                <div class="text-overlay_question">
-                    In hoeverre beïnvloeden cookies de autonomie van gebruikers op nieuwswebsites?
-                </div>
-            </a>
-        </div>
-    </div> 
+    </div>     
 
+    <!--nieuwsberichten 2e rij-->
     <p class="white_border_20"></p>
     <div class="center-block-homepage">
-    <div class="image-container">
-        <a class="line color" href="deelvraag1.html">
-            <img src="deelvraag1_home.jpg" width="185" height="168" class="margin_right edges">
-            <article class="card_news">
-                <br>
-                    <p>Deelvraag 1: Welke soorten cookies worden in het cookiebeleid van de nieuwswebsite gehanteerd?</p> 
+        <!--Card deelvraag 3 -->
+        <div class="image-container">
+            <a class="line color" href="deelvraag3.html">
+                <img src="images/deelvraag3_home.jpg" width="185" height="168" class="margin_right">
+                <article class="card_news">
+                    <br>
+                        <p>Deelvraag 3: In hoeverre beïnvloeden cookies de autonomie van gebruikers op nieuwswebsites?</p> 
+                        <div class="non-clickable-text">
+                            Autonomie betreft het vermogen en de vrijheid van individuen om zelfstandig keuzes te maken, gebaseerd 
+                            op hun eigen overtuigingen, waarden en voorkeuren. Autonomie is een belangrijk recht en draagt bij aan het 
+                            welzijn van mensen (Darwall, 2006). In de ...
+                        </div> 
+                </article>
+            </a>
+        </div>
+
+        <!--Card deelvraag 4-->
+        <div  class="image-container">
+            <a class="line color" href="deelvraag4.html">
+                <img src="images/deelvraag4_home.png" width="185" height="168" class="margin_right">
+                <article class="card_news">
+                    <Br>
+                    <p>Deelvraag 4: In hoeverre kan de gebruiker zijn privacy waarborgen door alle niet-essentiële cookies af te wijzen op de nieuwswebsite?</p>
                     <div class="non-clickable-text">
-                        Organisaties kunnen gebruik maken van drie soorten cookies op hun website, namelijk functionele cookies,
-                         analytische cookies en tracking cookies. Functionele cookies en analytische cookies zijn essentiële cookies.
-                          Dit ...
-
-
-        
+                        Artikel 10 van de grondwet gaat over privacy. Volgens dit artikel mag iemands persoonlijke vrijheid niet worden 
+                        gehinderd en/of worden beïnvloed door externe factoren. Ook stelt artikel 10 dat iemand zelf kan bepalen wie welke ...
                         
-                    </div> 
-            </article>
-        </a>
-    </div>
-    
-    <div  class="image-container">
-        <a class="line color" href="deelvraag4.html">
-            <img src="deelvraag4_home.jpg" width="185" height="168" class="margin_right edges">
-            <article class="card_news">
-                <Br>
-                <p>Deelvraag 4: In hoeverre kan de gebruiker zijn privacy waarborgen door alle niet-essentiële cookies af te wijzen op de nieuwswebsite?</p>
-                <div class="non-clickable-text">
-                    Artikel 10 van de grondwet gaat over privacy. Volgens dit artikel mag iemands persoonlijke vrijheid niet worden 
-                    gehinderd en/of worden beïnvloed door externe factoren. Ook stelt artikel 10 dat iemand zelf kan bepalen wie welke ...
-                    
-                </div>
-            </article>
-        </a>
-    </div>
-    
-    <div class="image-container">
-    <a class="line color" href="deelvraag5.html">
-        <img src="deelvraag5_home.jpg" width="185" height="168" class="margin_right edges">
-        <article class="card_news">
-            <Br>
-            <p>Deelvraag 5: In hoeverre voldoet de cookieverklaring van de nieuwswebsite aan de wettelijke eisen van de Algemene Verordening Gegevensbescherming (AVG)?</p>
-            <div class="non-clickable-text">
-                De AVG is de belangrijkste privacywet en houdt zich bezig met de bescherming van persoonsgegevens (Autoriteit Persoonsgegevens, z.d.-a). 
-                Deze verordening is van ...
-            </div>
-        </article>
-    </a>
-    </div>
+                    </div>
+                </article>
+            </a>
+        </div>
 
-    
-            <article class="card">
-                <h3>De top 20 nieuwswebsites van Nederland <span class="cards"> (met maandelijkse aantal bezoekers)</span> :</h3>
+        <!-- Card deelvraag 5-->
+        <div class="image-container">
+            <a class="line color" href="deelvraag5.html">
+                <img src="images/deelvraag5_home.png" width="185" height="168" class="margin_right">
+                <article class="card_news">
+                    <Br>
+                    <p>Deelvraag 5: In hoeverre voldoet de cookieverklaring van de nieuwswebsite aan de wettelijke eisen van de Algemene Verordening Gegevensbescherming (AVG)?</p>
+                    <div class="non-clickable-text">
+                        De AVG is de belangrijkste privacywet en houdt zich bezig met de bescherming van persoonsgegevens (Autoriteit Persoonsgegevens, z.d.-a). 
+                        Deze verordening is van ...
+                    </div>
+                </article>
+            </a>
+        </div>
+
+        <!-- Card top 20 nieuwswebsites-->
+        <div class="image-container">
+            <article class="card_top20">
+                <h3 style="font-family: helvetica;font-weight: bold;color:#bc0031;font-size:20px;">
+                    De top 20 nieuwswebsites van Nederland <span style="font-size:10px;"> (met maandelijkse aantal bezoekers)</span> :
+                </h3>
                 <p>
                     1. NOS (6.400.000 bezoekers)<br>
                     2. Algemeen Dagblad (6.225.000 bezoekers)<br>
@@ -158,106 +162,64 @@
                     20. Noordhollands Dagblad (529.000 bezoekers)<br>
                 </p>
             </article>
+        </div>
     </div>
-
-    <p class="white-banner-top"></p>
-
-
-   
-
     
+    <!--nieuwsberichten 3e rij-->
+    <br>
     <div class="center-block-homepage">
-    <div class="image-container">
-        <a class="line color" href="methode.html">
-            <img src="methode_home.jpg" width="200" height="168" class="margin_right edges">
-            <article class="card_news">
-                    <p>Methode</p> 
-                    <div class="non-clickable-text">
-                        Hoe het onderzoek is uitgevoerd.
-                    </div> 
-            </article>
-        </a>
-    </div>
-    
-    <div  class="image-container">
-        <a class="line color" href="hoofdvraag.html">
-            <img src="hoofdvraag_home.jpg" width="200" height="168" class="margin_right edges">
-            <article class="card_news">
-                <p>Hoofdvraag</p>
-                <div class="non-clickable-text">
-                    Klik hier voor het antwoord op de hoofdvraag.
-                </div>
-            </article>
-        </a>
-    </div>
-    
-    <div class="image-container">
-    <a class="line color" href="Conclusie.html">
-        <img src="conclusie_home.jpg" width="200" height="168" class="margin_right edges">
-        <article class="card_news">
-            <p>Conclusie</p>
-            <div class="non-clickable-text">
-                Zie hier de conclusie van het onderzoek.
-            </div>
-        </article>
-    </a>
-    </div>
-    
-
-
-    <div class="image-container">
-        <a class="line color" href="inleiding.html">
-            <img src="inleiding.jpg" width="380" height="253" class="edges">
-            <article class="card_news">
-                    <p>Inleiding</p> 
-                    <div class="non-clickable-text">
-                       Lees hier meer over hoe het onderzoek tot stand is gekomen.
-                    </div> 
-            </article>
-        </a>
-    </div>
-
-    <div class="image-container">
-        <a class="line color" href="dataset.html">
-            <img src="dataset.png" width="200" height="168" class="margin_right edges">
-            <article class="card_news">
-                <p>Dataset</p>
-                <div class="non-clickable-text">
-                    Hier is de verzamelde data te vinden.
-                </div>
-            </article>
-        </a>
-        </div>
-
+        <!--Card methode-->
         <div class="image-container">
-            <a class="line color" href="APC.html">
-                <img src="APC.jpg" width="200" height="168" class="margin_right edges">
+            <a class="line color" href="methode.html">
+                <img src="images/methode_home.png" width="185" height="168" class="margin_right">
                 <article class="card_news">
-                        <p>Over APC nieuws</p> 
+                        <p>Methode</p> 
                         <div class="non-clickable-text">
-                            Wat is APC nieuws? En wie zijn daar deel van?
+                            Hoe het onderzoek is uitgevoerd.
                         </div> 
                 </article>
             </a>
         </div>
 
-        <div class="image-container">
-            <a class="line color" href="literatuur.html">
-                <img src="literatuur.jpg" width="200" height="168" class="edges">
+        <!-- Card conclusie-->
+        <div  class="image-container">
+            <a class="line color" href="conclusie.html">
+                <img src="images/conclusie_home.jpg" width="185" height="168" class="margin_right">
                 <article class="card_news">
-                        <p>Literatuur</p> 
-                        <div class="non-clickable-text">
-                            Hier zijn alle gebruikte bronnen te vinden voor de website.
-                        </div> 
+                    <p>Conclusie</p>
+                    <div class="non-clickable-text">
+                        Klik hier voor het antwoord op de hoofdvraag.
+                    </div>
                 </article>
             </a>
         </div>
 
+        <!-- Card dataset-->
+        <div class="image-container">
+            <a class="line color" href="dataset.html">
+                <img src="images/dataset_home.png" width="185" height="168" class="margin_right edges">
+                <article class="card_news">
+                    <p>Dataset</p>
+                    <div class="non-clickable-text">
+                        Hier is de verzamelde data te vinden.
+                    </div>
+                </article>
+            </a>
+        </div>
 
-    </body>
-    
-
-
+        <!-- Card literatuur-->
+        <div class="image-container">
+            <a class="line color" href="inleiding.html">
+                <img src="images/top20.png" width="421" height="145" class="edges">
+                <article>
+                    <br>
+                        <p>Logo's top 20 nieuwswebsites</p> 
+                </article>
+            </a>
+        </div>
+    </div>
    
+    
+</body>    
 
-        
+

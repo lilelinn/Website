@@ -1,0 +1,25 @@
+table {
+  font-family: helvetica;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  background-color:#f3f3f0;
+}
+
+th {
+  border-top:1px solid white;
+  border-bottom: 2px solid black;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+p.tabelheader{
+  color:#bc0031;
+  font-weight:bolder;
+}

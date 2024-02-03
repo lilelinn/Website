@@ -2,75 +2,149 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link href="styles.css" rel="stylesheet">
-    <link href="styles_card.css" rel="stylesheet">
-    <title>Deelvragen</title>
+    <link href="CSS_files/style_menu.css" rel="stylesheet">
+    <link href="CSS_files/style_images.css" rel="stylesheet">
+    <link href="CSS_files/style_newsarticle.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
 </head>
-<body>
-   
-    <div class = "center-block">
-        <a class="line" href="cookies_home.html"> 
-            <img src="APC.jpg"height="75" width="75">
-        </a> 
-    
-        <div class="dropdown margin-menu">
-            <a href="inleiding.html" class="nav-link dropbtn">Inleiding</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="methode.html" class="nav-link dropbtn">Methode</a>
-        </div>
-    
-    
-        <div class="dropdown margin-menu">
-            <a href="deelvragen.html" class="nav-link active dropbtn">Deelvragen <span><i class="arrow_active down"></i></span></a>
-            <div class="dropdown-content">
-                <a href="deelvraag1.html" class="nav-link">Deelvraag 1</a>
-                <a href="deelvraag2.html" class="nav-link">Deelvraag 2</a>
-                <a href="deelvraag3.html" class="nav-link">Deelvraag 3</a>
-                <a href="deelvraag4.html" class="nav-link">Deelvraag 4</a>
-                <a href="deelvraag5.html" class="nav-link">Deelvraag 5</a>
-            </div>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="hoofdvraag.html" class="nav-link dropbtn">Hoofdvraag</a>
-        </div>
+<header>
+<br>
+<div class="center-block">   
+<!-- Logo that links to the homepage -->
+    <a class="line" href="index.html"> 
+        <img src="images/APC.jpg" height="75px" width="75px" alt="APC Logo">
+    </a> 
 
-        <div class="dropdown margin-menu">
-            <a href="Conclusie.html" class="nav-link dropbtn">Conclusie</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="dataset.html" class="nav-link dropbtn">Dataset</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="APC.html" class="nav-link dropbtn">Over APC nieuws</a>
-        </div>
-
-        <div class="dropdown margin-menu">
-            <a href="literatuur.html" class="nav-link dropbtn">Literatuur</a>
-        </div>
-    
-        
+    <!--Menu Items -->
+    <div class="dropdown margin-menu">
+        <a href="inleiding.html" class="nav-link dropbtn">Inleiding</a>
     </div>
-    
-    <p class="line"></p>
 
+    <div class="dropdown margin-menu">
+        <a href="methode.html" class="nav-link dropbtn">Methode</a>
+    </div>
 
+    <div class="dropdown margin-menu">
+        <a href="deelvragen.html" class="nav-link dropbtn active">Deelvragen <span class="arrow down"></span></a>
+        <div class="dropdown-content">
+            <a href="deelvraag1.html" class="nav-link">Deelvraag 1</a>
+            <a href="deelvraag2.html" class="nav-link">Deelvraag 2</a>
+            <a href="deelvraag3.html" class="nav-link">Deelvraag 3</a>
+            <a href="deelvraag4.html" class="nav-link">Deelvraag 4</a>
+            <a href="deelvraag5.html" class="nav-link">Deelvraag 5</a>
+        </div>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="Conclusie.html" class="nav-link dropbtn">Conclusie</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="dataset.html" class="nav-link dropbtn">Dataset</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="APC.html" class="nav-link dropbtn">Over APC nieuws</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="literatuur.html" class="nav-link dropbtn">Literatuur</a>
+    </div>
+    </div>
+
+    <p class="menu_line"></p>
+</header>
+
+<!--nieuwsartikel-->
+<body>
     <!--afbeelding deelvraag en bijhorende tekst-->
-<p class="white-banner-top"> </p>
+    <p class="white-banner-top"> </p>
+    
+    <div class="image-container margin">
+        <img src="images/deelvragen.png" width="800" height="450">
+        <div class="text-overlay">(Scriptie Master, z.d.)</div>
+    </div>
+    <p class="white-banner-foto"></p>
+    <p class="APC">APC Nieuws • Dinsdag 9 januari, 17:55 </p>
+    
+    <h1 class="margin">Overzicht deelvragen </h1>
+    <div class="center-block_nieuwsbericht">
+        Om de onderzoeksvraag te kunnen beantwoorden zijn er vijf deelvragen opgesteld. Deze moeten eerst beantwoord 
+        worden voordat er een antwoord gevormd kan worden op de onderzoeksvraag. Dit zijn deze vijf deelvragen:
+        <Br><Br>
+        <!--cards met deelvragen-->
+    <!--deelvraag 1-->
+    <div class="image-container">
+        <a class="line color" href="deelvraag1.html">  
+            <article class="card_deelvraag">
+                    <p class="content-with-image">
+                        <span class="text-content">Deelvraag 1: Welke soorten cookies worden in het cookiebeleid van de nieuwswebsite gehanteerd?</span>
+                        <img src="images/deelvraag1.png" width="100" height="84" class="margin">
+                    </p>
+            </article>
+        </a>
+    </div>
+    <!--deelvraag 2-->
+    <div class="image-container">
+        <a class="line color" href="deelvraag2.html">  
+            <article class="card_deelvraag">
+                    <p class="content-with-image">
+                        <span class="text-content">Deelvraag 2: Welke dark patterns, indien aanwezig, worden in het cookiebeleid 
+                            van de nieuwswebsite geïdentificeerd?</span>
+                        <img src="images/deelvraag2.jpg" width="100" height="84" class="edges margin">
+                    </p>
+            </article>
+        </a>
+    </div>
 
-<div class="image-container margin">
-    <img src="deelvragen.png" width="800" height="450" class="edges">
-    <div class="text-overlay">(Zhu, 2021)</div>
+    <!--deelvraag 3-->
+    <div class="image-container">
+        <a class="line color" href="deelvraag3.html">  
+            <article class="card_deelvraag">
+                    <p class="content-with-image">
+                        <span class="text-content">Deelvraag 3: In hoeverre beïnvloeden cookies de autonomie van gebruikers op nieuwswebsites?</span>
+                        <img src="images/deelvraag3.jpg" width="100" height="84" class="edges margin">
+                    </p>
+            </article>
+        </a>
+    </div>
+
+    <!--deelvraag 4-->
+    <div class="image-container">
+        <a class="line color" href="deelvraag4.html">  
+            <article class="card_deelvraag">
+                    <p class="content-with-image">
+                        <span class="text-content">Deelvraag 4: In hoeverre kan de gebruiker zijn privacy waarborgen door alle niet-essentiële cookies af te wijzen op de nieuwswebsite?</span>
+                        <img src="images/deelvraag4.png" width="100" height="84" class="edges margin">
+                    </p>
+            </article>
+        </a>
+    </div>
+
+    <!--deelvraag 5-->
+    <div class="image-container">
+        <a class="line color" href="deelvraag5.html">  
+            <article class="card_deelvraag">
+                    <p class="content-with-image">
+                        <span class="text-content">Deelvraag 5: In hoeverre voldoet de cookieverklaring van de nieuwswebsite aan de wettelijke eisen van de Algemene Verordening Gegevensbescherming (AVG)?
+                        </span>
+                        <img src="images/deelvraag5.png" width="100" height="84" class="edges margin">
+                    </p>
+            </article>
+        </a>
+    </div>
+    <br>
+    <!--volgende button-->
+<div class="image-container">
+    <a class="line color" href="deelvraag1.html">  
+        <article class="card_volgende">
+                <p class="content-with-image">
+                    <img src="images/laptop.png" width="40" height="34" class="edges margin">
+                    <span class="text-content">naar deelvraag 1 &#x2192;&emsp;&emsp; </span>
+                </p>
+        </article>
+    </a>
 </div>
-<p class="white-banner-foto"></p>
-<p class="APC">APC Nieuws • Maandag 29 januari, 12:31 </p>
-
-<h1 class="margin">Theoretisch kader</h1>
-<p class="white-banner-foto"></p>
-</body>
-
-
+<br><br><Br><br>
+    </div>

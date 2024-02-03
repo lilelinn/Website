@@ -2,82 +2,83 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link href="styles.css" rel="stylesheet">
-    <link href="styles_card.css" rel="stylesheet">
-    <link href="styles_popup.css" rel="stylesheet">
-    <title>Inleiding</title>
+    <link href="CSS_files/style_menu.css" rel="stylesheet">
+    <link href="CSS_files/style_images.css" rel="stylesheet">
+    <link href="CSS_files/style_newsarticle.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
 </head>
-<body>
+<header>
+<br>
+<div class="center-block">   
+<!-- Logo that links to the homepage -->
+    <a class="line" href="index.html"> 
+        <img src="images/APC.jpg" height="75px" width="75px" alt="APC Logo">
+    </a> 
 
-    <div class = "center-block">
-        <a class="line" href="cookies_home.html"> 
-            <img src="APC.jpg"height="75" width="75">
-        </a> 
-    
-        <div class="dropdown margin-menu">
-            <a href="inleiding.html" class="nav-link dropbtn">Inleiding</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="methode.html" class="nav-link dropbtn">Methode</a>
-        </div>
-    
-    
-        <div class="dropdown margin-menu">
-            <a href="deelvragen.html" class="nav-link dropbtn">Deelvragen <span><i class="arrow_active down"></i></span></a>
-            <div class="dropdown-content">
-                <a href="deelvraag1.html" class="nav-link">Deelvraag 1</a>
-                <a href="deelvraag2.html" class="nav-link">Deelvraag 2</a>
-                <a href="deelvraag3.html" class="nav-link">Deelvraag 3</a>
-                <a href="deelvraag4.html" class="nav-link">Deelvraag 4</a>
-                <a href="deelvraag5.html" class="nav-link">Deelvraag 5</a>
-            </div>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="hoofdvraag.html" class="nav-link dropbtn">Hoofdvraag</a>
-        </div>
-
-        <div class="dropdown margin-menu">
-            <a href="Conclusie.html" class="nav-link dropbtn">Conclusie</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="dataset.html" class="nav-link dropbtn">Dataset</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="APC.html" class="nav-link dropbtn">Over APC nieuws</a>
-        </div>
-
-        <div class="dropdown margin-menu">
-            <a href="literatuur.html" class="nav-link dropbtn active">Literatuur</a>
-        </div>
-    
-        
+    <!--Menu Items -->
+    <div class="dropdown margin-menu">
+        <a href="inleiding.html" class="nav-link dropbtn">Inleiding</a>
     </div>
-    
-    <p class="line"></p>
+
+    <div class="dropdown margin-menu">
+        <a href="methode.html" class="nav-link dropbtn">Methode</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="deelvragen.html" class="nav-link dropbtn">Deelvragen <span class="arrow down"></span></a>
+        <div class="dropdown-content">
+            <a href="deelvraag1.html" class="nav-link">Deelvraag 1</a>
+            <a href="deelvraag2.html" class="nav-link">Deelvraag 2</a>
+            <a href="deelvraag3.html" class="nav-link">Deelvraag 3</a>
+            <a href="deelvraag4.html" class="nav-link">Deelvraag 4</a>
+            <a href="deelvraag5.html" class="nav-link">Deelvraag 5</a>
+        </div>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="Conclusie.html" class="nav-link dropbtn">Conclusie</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="dataset.html" class="nav-link dropbtn">Dataset</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="APC.html" class="nav-link dropbtn">Over APC nieuws</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="literatuur.html" class="nav-link dropbtn active">Literatuur</a>
+    </div>
+    </div>
+
+    <p class="menu_line"></p>
+</header>
+
+<!--nieuwsartikel-->
+<body>
     <!--afbeelding deelvraag en bijhorende tekst-->
     <p class="white-banner-top"> </p>
-
+    
     <div class="image-container margin">
-        <img src="literatuur.jpg" width="800" height="450" class="edges" class="edges">
-        <div class="text-overlay">(Zhu, 2021)</div>
+        <img src="images/literatuur.jpg" width="800" height="450">
+        <div class="text-overlay"> (Wolfram, 2017)</div>
     </div>
     <p class="white-banner-foto"></p>
-    <p class="APC">APC Nieuws • Maandag 29 januari, 12:31 </p>
-
+    <p class="APC">APC Nieuws • Woensdag 10 januari, 13:31 </p>
+    
     <h1 class="margin">Literatuur</h1>
-    <p class="white-banner-foto"></p>
+
     <div class="center-block_nieuwsbericht">
-        <div>
     AD. (z.d.). Jouw privacy-instellingen. Geraadpleegd op 30 januari 2024, van https://myprivacy.dpgmedia.nl/consent?siteKey=V9f6VUvlHxq9wKIN&callbackUrl=https%3A%2F%2Fwww.ad.nl%2Fprivacy-gate%2Faccept-tcf2%3FredirectUri%3D%252F
+    <br><br>Artikel 10 Grondwet. (2017, 17 november). Geraadpleegd op 3 februari 2024, van https://wetten.overheid.nl/BWBR0001840/2017-11-17
     <br><br>Artikel 5 AVG. (2016, 27 april). Geraadpleegd op 30 januari 2024, van https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32016R0679&qid=1685451198313#d1e1802-1-1
     <br><br>Autoriteit Persoonsgegevens. (z.d.-a). Basis AVG. Geraadpleegd op 29 januari 2024, van https://www.autoriteitpersoonsgegevens.nl/themas/basis-avg
     <br><br>Autoriteit Persoonsgegevens. (z.d.-b). Cookies. Geraadpleegd op 29 januari 2024, van https://www.autoriteitpersoonsgegevens.nl/themas/internet-slimme-apparaten/cookies
     <br><br>Autoriteit Persoonsgegevens. (z.d.-c). De AVG in het kort. Geraadpleegd op 30 januari 2024, van https://www.autoriteitpersoonsgegevens.nl/themas/basis-avg/avg-algemeen/de-avg-in-het-kort
     <br><br>Autoriteit Persoonsgegevens. (z.d.-d). Tracking cookies. Geraadpleegd op 29 januari 2024, van https://www.autoriteitpersoonsgegevens.nl/themas/internet-slimme-apparaten/cookies/tracking-cookies#:~:text=Als%20cookies%20ook%20bij%20bezoek,en%20hen%20anders%20te%20behandelen.
+    <br><br>Badische Zeitung. (2020, 20 januari). Gemeinsam puzzeln stärkt die Gemeinschaft. badische-zeitung.de. https://www.badische-zeitung.de/tag-des-puzzles-warum-regionale-fotopuzzles-beliebt-sind
     <br><br>Becker, M. (2015). Ethiek van de digitale media. Hoofdstuk 2: Privacy (pp. 71-100). Boom.
     <br><br>BN DeStem. (z.d.). https://www.bndestem.nl/. BNDeStem. Geraadpleegd op 31 januari 2024, van https://www.bndestem.nl/
     <br><br>BNR. (z.d.). Uw privacy beheren. Geraadpleegd op 31 januari 2024, van https://www.bnr.nl/
@@ -89,15 +90,19 @@
     <br><br>De Stentor. (z.d.). Jouw privacy-instellingen. destentor. Geraadpleegd op 31 januari 2024, van https://www.destentor.nl/
     <br><br>De Telegraaf. (z.d.). Cookies en dataverzameling op De Telegraaf. Telegraaf. Geraadpleegd op 31 januari 2024, van https://www.telegraaf.nl/
     <br><br>De Volkskrant. (z.d.). Jouw privacy-instellingen. Volkskrant. Geraadpleegd op 31 januari 2024, van https://www.volkskrant.nl/?referrer=https://www.google.com/
+    <br><br>Devimpact Institute. (z.d.). Training on Research Methodology. devimpactinstitute.com. https://devimpactinstitute.com/courses/data-management-and-analysis/training-on-research-methodology/
     <br><br>DPG Media. (z.d.-a). Dit is DPG Media. DPG Media Group. Geraadpleegd op 31 januari 2024, van https://www.dpgmediagroup.com/nl-NL/werken-bij-dpg/dit-is-dpg
-    <br><br>DPG Media. (z.d.-b). Onze merken. DPG Media Group. Geraadpleegd op 31 januari 2024, van https://www.dpgmediagroup.com/nl-BE/over-dpg-media-group/merken?refinementList%5Bcountry%5D%5B0%5D=nl&refinementList%5Btype%5D%5B0%5D=Nieuwsmed<br>ia&refinementList%5Bcategory%5D=&page=2&configure%5BhitsPerPage%5D=12&configure%5Bf<br>ilters%5D=contentType%3AbrandPage%20AND%20%28%24metadata.tags.sys.id%3ABECONTE<Br>NT%29&configure%5BmaxValuesPerFacet%5D=15
+    <br><br>DPG Media. (z.d.-b). Onze merken. DPG Media Group. Geraadpleegd op 31 januari 2024, van https://www.dpgmediagroup.com/nl-BE/over-dpg-media-group/merken?refinementList%5Bcountry%5D%5B0%5D=nl&refinementList%5Btype%5D%5B0%5D=Nieuwsmedia&refinementList%5Bcategory%5D=&page=2&configure%5BhitsPerPage%5D=12&configure%5Bfilters%5D=contentType%3AbrandPage%20AND%20%28%24metadata.tags.sys.id%3ABECONTENT%29&configure%5BmaxValuesPerFacet%5D=15
     <br><br>Eindhovens Dagblad. (z.d.). Jouw privacy-instellingen. ED. Geraadpleegd op 31 januari 2024, van https://www.ed.nl/
     <br><br>Englehardt, S., & Narayanan, A. (2016). Online Tracking: A 1-million-site Measurement and Analysis. Princeton University.
     <br><br>Expertisecentrum Europees Recht. (z.d.). Algemene Verordening Gegevensbescherming. ECER. Geraadpleegd op 29 januari 2024, van https://ecer.minbuza.nl/ecer/dossiers/privacy/algemene-verordening-gegevensbescherming.html
+    <br><br>Forbes Agency Council. (2023, 18 oktober). Adapting Your Marketing Strategies In A
+    <br><br>Cookieless World. forbes.com. https://www.forbes.com/sites/forbesagencycouncil/2023/10/18/adapting-your-marketing-strategies-in-a-cookieless-world/
     <br><br>Gray, C. M., Kou, Y., Battles, B., Hoggatt, J., & Toombs, A. L. (2018). The Dark (Patterns) Side of UX Design. Proceedings of the 2018 CHI conference on human factors in computing systems. https://doi.org/10.1145/3173574.3174108
     <br><br>Hart van Nederland. (z.d.). Over uw privacy. Hartvannederland. Geraadpleegd op 31 januari 2024, van https://www.hartvannederland.nl/
     <br><br>Het Parool. (z.d.). Jouw privacy-instellingen. Parool. Geraadpleegd op 31 januari 2024, van https://www.parool.nl/?referrer=https://www.google.com/
     <br><br>Indebuurt. (z.d.). Jouw privacy-instellingen. indebuurt. Geraadpleegd op 31 januari 2024, van https://indebuurt.nl/
+    <br><br>Koninklijke Horeca Nederland. (z.d.). Leestafel kranten. KHN. https://www.khn.nl/leden-voordelen/kranten-met-korting
     <br><br>Maastricht University. (z.d.). Wat is nieuws? maastrichtuniversity. Geraadpleegd op 29 januari 2024, van https://www.maastrichtuniversity.nl/nl/nieuws-agenda/pers/mediatips-voor-wetenschappers/wat-nieuws
     <br><br>Mediahuis. (z.d.). Wij zijn Mediahuis. Welkom. Geraadpleegd op 31 januari 2024, van https://www.mediahuis.nl/over-ons/
     <br><br>Metro. (z.d.). Cookies en dataverzameling op Metronieuws.nl. Metronieuws. Geraadpleegd op 31 januari 2024, van https://www.metronieuws.nl/
@@ -105,29 +110,31 @@
     <br><br>Mutz, D. C., & Soss, J. (1997). Reading public opinion: The influence of news coverage on 
     <br><br>perceptions of public sentiment. Public Opinion Quarterly, 431-451.
     <br><br>Nationaal Media Onderzoek. (2024). nmo online top50 websites december 2023 [Dataset]. Geraadpleegd op 29 januari 2024, van https://nmodata.nl/digital/online-bereik-top50-websites
+    <br><br>National Cybersecurity Alliance. (2021, 13 april). 7 Tips to Manage Your Identity and Protect Your Privacy Online. staysafeonline.org. https://staysafeonline.org/resources/7-tips-to-manage-your-identity/
     <br><br>Noordhollands Dagblad. (z.d.). Cookies en dataverzameling op Noordhollands Dagblad. Geraadpleegd op 31 januari 2024, van https://www.noordhollandsdagblad.nl/
     <br><br>NOS. (z.d.-a). Cookies op NOS.nl. Geraadpleegd op 30 januari 2024, van https://cookies.nos.nl/sites/NOS/nos.nl/settings.html?version=v3.2.5-Ik9GH&referrer=https%3A%2F%2Fnos.nl%2F
     <br><br>NOS. (z.d.-b). Nederlandse Omroep Stichting. NOS. Geraadpleegd op 30 januari 2024, van https://nos.nl/
     <br><br>NRC. (z.d.-a). NRC. Geraadpleegd op 31 januari 2024, van https://www.nrc.nl/
     <br><br>NRC. (z.d.-b). Privacyverklaring van Mediahuis NRC. Geraadpleegd op 31 januari 2024, van https://www.nrc.nl/privacy/
     <br><br>NU.nl. (z.d.). Jouw privacy-instellingen. Geraadpleegd op 31 januari 2024, van https://www.nu.nl/
+    <br><br>Pempel, K. (2021, 29 juli). Dark patterns — a new frontier in privacy regulation. reuters.com. https://www.reuters.com/legal/legalindustry/dark-patterns-new-frontier-privacy-regulation-2021-07-29/
+    <br><br>Pixelvario. (z.d.). Street Sign the Direction Way to Autonomy versus Dependency. shutterstock.com. https://www.shutterstock.com/nl/image-photo/street-sign-direction-way-autonomy-versus-2161949943
     <br><br>Rijksoverheid. (z.d.-a). Mag een website ongevraagd cookies plaatsen? Geraadpleegd op 30 januari 2024, van https://www.rijksoverheid.nl/onderwerpen/telecommunicatie/vraag-en-antwoord/mag-een-website-ongevraagd-cookies-plaatsen
     <br><br>Rijksoverheid. (z.d.-b). Mag een website ongevraagd cookies plaatsen? Rijksoverheid.nl. Geraadpleegd op 29 januari 2024, van https://www.rijksoverheid.nl/onderwerpen/telecommunicatie/vraag-en-antwoord/mag-een-website-ongevraagd-cookies-plaatsen#:~:text=Websites%20gebruiken%20analytische%20cookies%20om,nauwelijks%20gevolgen%20voor%20de%20privacy
     <br><br>Rijksoverheid. (z.d.-c). Privacyverklaring ministerie van Sociale Zaken en Werkgelegenheid. Geraadpleegd op 31 januari 2024, van https://www.rijksoverheid.nl/ministeries/ministerie-van-sociale-zaken-en-werkgelegenheid/privacy#:~:text=In%20artikel%2010%20van%20de,over%20hem%20of%20haar%20verkrijgt.
-    <br><br>Ringel, G. (2021, 30 augustus). What are Computer Cookies? blog.saymine. Geraadpleegd op 29 januari 2024, van https://blog.saymine.com/blog-1/what-are-internet-cookies
     <br><br>RTL Nieuws. (z.d.). RTL Nieuws. Geraadpleegd op 30 januari 2024, van https://www.rtlnieuws.nl/
     <br><br>RTL Nieuws. (2023, 16 maart). Privacy statement. Geraadpleegd op 30 januari 2024, van https://privacy.rtl.nl/privacy-statement.html
-    <br><br>Soe, T. H., Nordberg, O. E., Guribye, F., & Slavkovik, M. (2020). Circumvention by design -
-    <br><br>dark patterns in cookie consent for online news outlets. Proceedings of the 11th Nordic Conference on Human-Computer Interaction: Shaping Experiences, Shaping Society. https://doi.org/10.1145/3419249.3420132
-    <br><br>Steinfeld, N. (2016). “I agree to the terms and conditions”:(How) do users read privacy policies 
-    <br><br>online? An eye-tracking experiment. Computers in human behavior, 55, 992-1000.
+    <br><br>Scriptie Master. (z.d.). Hoe je jouw literatuuronderzoek strategisch plant. ScriptieMaster. https://www.scriptiemaster.nl/scriptie-kennisbank/hoe-je-jouw-literatuuronderzoek-strategisch-plant/
+    <br><br>Shutterstock. (2020, 13 oktober). The VLOOKUP formula in Excel is great for finding relationships between different data points. businessinsider.com. https://www.businessinsider.com/guides/tech/how-to-do-vlookup-in-excel?international=true&r=US&IR=T
+    <br><br>Soe, T. H., Nordberg, O. E., Guribye, F., & Slavkovik, M. (2020). Circumvention by design - dark patterns in cookie consent for online news outlets. Proceedings of the 11th Nordic Conference on Human-Computer Interaction: Shaping Experiences, Shaping Society. https://doi.org/10.1145/3419249.3420132
+    <br><br>Steinfeld, N. (2016). “I agree to the terms and conditions”:(How) do users read privacy policies online? An eye-tracking experiment. Computers in human behavior, 55, 992-1000.
     <br><br>Trouw. (z.d.). Jouw privacy-instellingen. Geraadpleegd op 31 januari 2024, van https://www.trouw.nl/
     <br><br>Tubantia. (z.d.). Jouw privacy-instellingen. Geraadpleegd op 31 januari 2024, van https://www.tubantia.nl/
     <br><br>Verhagen, L. (2020, 24 september). Nederlandse nieuwssites verzamelen enthousiast data van bezoekers. Volkskrant. Geraadpleegd op 29 januari 2024, van https://www.volkskrant.nl/nieuws-achtergrond/nederlandse-nieuwssites-verzamelen-enthousiast-data-van-bezoekers~ba94f844/
     <br><br>Wachner, J., Adriaanse, M., & De Ridder, D. (2021). The influence of nudge transparency on the 
     <br><br>experience of autonomy. Comprehensive Results in Social Psychology, 5(1-3), 49-63.
-    <br><br>WIX. (z.d.). Over privacy en cookies. support.wix. Geraadpleegd op 29 januari 2024,
-    <br><br>van https://support.wix.com/nl/article/over-privacy-en-cookies
+    <br><br>WIX. (z.d.). Over privacy en cookies. support.wix. Geraadpleegd op 29 januari 2024,van https://support.wix.com/nl/article/over-privacy-en-cookies
+    <br><br>Wolfram, R. (2017, 6 januari). Many old books in a row. iStock. https://www.istockphoto.com/nl/foto/many-old-books-in-a-row-gm627965868-111327679
+    <br><br>Wolsink, J. (2018, 24 april). Algemene Verordening Gegevensbescherming. antagonist. https://www.antagonist.nl/blog/avg/
 
-        </div>
-</body>    
+    </div> 

@@ -2,71 +2,77 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link href="styles.css" rel="stylesheet">
-    <link href="styles_card.css" rel="stylesheet">
-    <link href="styles_popup.css" rel="stylesheet">
-    <title>Inleiding</title>
+    <link href="CSS_files/style_menu.css" rel="stylesheet">
+    <link href="CSS_files/style_images.css" rel="stylesheet">
+    <link href="CSS_files/style_newsarticle.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
 </head>
-<body>
+<header>
+<br>
+<div class="center-block">   
+<!-- Logo that links to the homepage -->
+    <a class="line" href="index.html"> 
+        <img src="images/APC.jpg" height="75px" width="75px" alt="APC Logo">
+    </a> 
 
-    <div class = "center-block">
-        <a class="line" href="cookies_home.html"> 
-            <img src="APC.jpg"height="75" width="75">
-        </a> 
-    
-        <div class="dropdown margin-menu">
-            <a href="inleiding.html" class="nav-link dropbtn">Inleiding</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="methode.html" class="nav-link dropbtn">Methode</a>
-        </div>
-    
-    
-        <div class="dropdown margin-menu">
-            <a href="deelvragen.html" class="nav-link dropbtn">Deelvragen <span><i class="arrow_active down"></i></span></a>
-            <div class="dropdown-content">
-                <a href="deelvraag1.html" class="nav-link">Deelvraag 1</a>
-                <a href="deelvraag2.html" class="nav-link">Deelvraag 2</a>
-                <a href="deelvraag3.html" class="nav-link">Deelvraag 3</a>
-                <a href="deelvraag4.html" class="nav-link">Deelvraag 4</a>
-                <a href="deelvraag5.html" class="nav-link">Deelvraag 5</a>
-            </div>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="hoofdvraag.html" class="nav-link dropbtn">Hoofdvraag</a>
-        </div>
-
-        <div class="dropdown margin-menu">
-            <a href="Conclusie.html" class="nav-link dropbtn">Conclusie</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="dataset.html" class="nav-link dropbtn">Dataset</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="APC.html" class="nav-link dropbtn active">Over APC nieuws</a>
-        </div>
-
-        <div class="dropdown margin-menu">
-            <a href="literatuur.html" class="nav-link dropbtn">Literatuur</a>
-        </div>
-    
-        
+    <!--Menu Items -->
+    <div class="dropdown margin-menu">
+        <a href="inleiding.html" class="nav-link dropbtn">Inleiding</a>
     </div>
-    
-    <p class="line"></p>
-    <!--afbeelding deelvraag en bijhorende tekst-->
-    <p class="white-banner-top"> </p>
 
-    <div class="image-container margin_APC">
-        <img src="APC.jpg" width="450" height="450">
+    <div class="dropdown margin-menu">
+        <a href="methode.html" class="nav-link dropbtn">Methode</a>
     </div>
-    <p class="white-banner-foto"></p>
-    <p class="APC">APC Nieuws • Maandag 29 januari, 12:31 </p>
 
-    <h1 class="margin">Over APC nieuws</h1>
-    <p class="white-banner-foto"></p>
-</body>    
+    <div class="dropdown margin-menu">
+        <a href="deelvragen.html" class="nav-link dropbtn">Deelvragen <span class="arrow down"></span></a>
+        <div class="dropdown-content">
+            <a href="deelvraag1.html" class="nav-link">Deelvraag 1</a>
+            <a href="deelvraag2.html" class="nav-link">Deelvraag 2</a>
+            <a href="deelvraag3.html" class="nav-link">Deelvraag 3</a>
+            <a href="deelvraag4.html" class="nav-link">Deelvraag 4</a>
+            <a href="deelvraag5.html" class="nav-link">Deelvraag 5</a>
+        </div>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="Conclusie.html" class="nav-link dropbtn">Conclusie</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="dataset.html" class="nav-link dropbtn">Dataset</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="APC.html" class="nav-link dropbtn active">Over APC nieuws</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="literatuur.html" class="nav-link dropbtn">Literatuur</a>
+    </div>
+    </div>
+
+    <p class="menu_line"></p>
+</header>
+
+<!--afbeelding deelvraag en bijhorende tekst-->
+<p class="white-banner-top"> </p>
+
+<div class="image-container margin_APC">
+    <img src="images/APC.jpg" width="350" height="350">
+</div>
+<p class="white-banner-foto"></p>
+<p class="APC">APC Nieuws • Maandag 29 januari, 12:31 </p>
+
+<h1 class="margin">Over APC nieuws</h1>
+<p class="white-banner-foto"></p>
+<div class="center-block_nieuwsbericht">
+    <div>
+Wij zijn Mouna Ben Kaddour, David Kraakman, Lile lin en Floor Verkade. Voor het vak 'Reflectie op de digitale cultuur’ hebben we onderzoek gedaan naar cookiegebruik op nieuwswebsites. Hierbij willen we kijken naar de impact dat dit deel van de hedendaagse digitale cultuur heeft op de autonomie en privacy van de gebruikers. Zo zijn we op de naam van deze website gekomen: ‘Autonomie, Privacy, Cookies: Nieuws.’
+<br><br>
+In de snel evoluerende digitale wereld spelen nieuwswebsites met hun grote aantal bezoekers een cruciale rol in onze samenleving. Dagelijks bezoeken miljoenen mensen deze websites om op de hoogte te blijven van actuele gebeurtenissen. Het is daarom erg belangrijk om te weten hoe deze websites omgaan met de gegevens van hun gebruikers en of ze ernaar streven om de privacy en autonomie te waarborgen. Op basis van een literatuuronderzoek en een analyse van de 20 grootste nieuwswebsites hebben wij dit onderzocht. 
+<br><br>
+Onze bevindingen hebben we samengebracht op deze website. Door middel van verschillende deelvragen, die als artikelen op deze website zijn gepubliceerd, wordt er kritisch gekeken naar de praktijken van de nieuwswebsites omtrent hun privacy- en cookiebeleid. Hiermee willen we een beter bewustzijn creëren en het gesprek beginnen over digitale ethiek en de balans tussen personalisatie en privacy. 
+</div>
+</div>  

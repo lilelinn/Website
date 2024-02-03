@@ -2,182 +2,177 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link href="styles.css" rel="stylesheet">
-    <link href="styles_card.css" rel="stylesheet">
-    <link href="styles_popup.css" rel="stylesheet">
-    <title>Inleiding</title>
+    <link href="CSS_files/style_menu.css" rel="stylesheet">
+    <link href="CSS_files/style_images.css" rel="stylesheet">
+    <link href="CSS_files/style_newsarticle.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
 </head>
+<header>
+<br>
+<div class="center-block">   
+<!-- Logo that links to the homepage -->
+    <a class="line" href="index.html"> 
+        <img src="images/APC.jpg" height="75px" width="75px" alt="APC Logo">
+    </a> 
+
+    <!--Menu Items -->
+    <div class="dropdown margin-menu">
+        <a href="inleiding.html" class="nav-link dropbtn">Inleiding</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="methode.html" class="nav-link dropbtn">Methode</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="deelvragen.html" class="nav-link dropbtn active">Deelvragen <span class="arrow down"></span></a>
+        <div class="dropdown-content">
+            <a href="deelvraag1.html" class="nav-link">Deelvraag 1</a>
+            <a href="deelvraag2.html" class="nav-link">Deelvraag 2</a>
+            <a href="deelvraag3.html" class="nav-link active">Deelvraag 3</a>
+            <a href="deelvraag4.html" class="nav-link">Deelvraag 4</a>
+            <a href="deelvraag5.html" class="nav-link">Deelvraag 5</a>
+        </div>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="Conclusie.html" class="nav-link dropbtn">Conclusie</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="dataset.html" class="nav-link dropbtn">Dataset</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="APC.html" class="nav-link dropbtn">Over APC nieuws</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="literatuur.html" class="nav-link dropbtn">Literatuur</a>
+    </div>
+    </div>
+
+    <p class="menu_line"></p>
+</header>
+
+<!--nieuwsartikel-->
 <body>
-
-    <div class = "center-block">
-        <a class="line" href="cookies_home.html"> 
-            <img src="APC.jpg"height="75" width="75">
-        </a> 
-    
-        <div class="dropdown margin-menu">
-            <a href="inleiding.html" class="nav-link dropbtn">Inleiding</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="methode.html" class="nav-link dropbtn">Methode</a>
-        </div>
-    
-    
-        <div class="dropdown margin-menu">
-            <a href="deelvragen.html" class="nav-link active dropbtn">Deelvragen <span><i class="arrow_active down"></i></span></a>
-            <div class="dropdown-content">
-                <a href="deelvraag1.html" class="nav-link">Deelvraag 1</a>
-                <a href="deelvraag2.html" class="nav-link">Deelvraag 2</a>
-                <a href="deelvraag3.html" class="nav-link active">Deelvraag 3</a>
-                <a href="deelvraag4.html" class="nav-link">Deelvraag 4</a>
-                <a href="deelvraag5.html" class="nav-link">Deelvraag 5</a>
-            </div>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="hoofdvraag.html" class="nav-link dropbtn">Hoofdvraag</a>
-        </div>
-
-        <div class="dropdown margin-menu">
-            <a href="Conclusie.html" class="nav-link dropbtn">Conclusie</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="dataset.html" class="nav-link dropbtn">Dataset</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="APC.html" class="nav-link dropbtn">Over APC nieuws</a>
-        </div>
-
-        <div class="dropdown margin-menu">
-            <a href="literatuur.html" class="nav-link dropbtn">Literatuur</a>
-        </div>
-    
-        
-    </div>
-    
-    <p class="line"></p>
-
-
-
     <!--afbeelding deelvraag en bijhorende tekst-->
-<p class="white-banner-top"> </p>
-
-<div class="image-container margin">
-    <img src="deelvraag3.jpg" width="800" height="450" class="edges">
-    <div class="text-overlay">(Hallebeek, 2023)</div>
-</div>
-<p class="white-banner-foto"></p>
-<p class="APC">APC Nieuws • Maandag 29 januari, 12:31 </p>
-
-<h1 class="margin">In hoeverre beïnvloeden cookies de autonomie van gebruikers op nieuwswebsites?</h1>
-<p class="white-banner-foto"></p><!--antwoord deelvraag-->
-<div class="center-block_nieuwsbericht">
-    <div>
-        Autonomie betreft het vermogen en de vrijheid van individuen om zelfstandig keuzes te maken, gebaseerd op hun 
-        eigen overtuigingen, waarden en voorkeuren. Autonomie is een belangrijk recht en draagt bij aan het welzijn 
-        van mensen (Darwall, 2006). In de context van het gebruik van nieuwswebsites, houdt autonomie in dat de gebruikers 
-        de mogelijkheid hebben om ervoor te kiezen welke informatie ze wel willen delen en welke niet. Dit is met 
-        name van belang bij de 'tracking cookies', waarbij informatie vaak met derden wordt gedeeld (Mitchell, 2012).<br><Br>
-     
-	    Nieuwswebsites hebben een cruciale rol in het medialandschap, omdat een groot deel van de mensen deze websites regelmatig 
-        gebruikt om actuele informatie te vergaren. Deze websites hebben een aanzienlijke invloed op het vormen van publieke opinies
-         en percepties (Mutz & Soss, 1997). Autonome keuzes met betrekking tot cookies zijn daarom van groot belang om ervoor te zorgen
-          dat individuen niet ongewild blootgesteld worden aan bepaalde informatie of dat hun persoonlijke gegevens niet zonder hun 
-          expliciete toestemming worden gebruikt.<br><br> 
-
-         <p class="tussenkop">Transparantie</p> 
-        Om deze autonomie te ondersteunen is ten eerste transparantie van belang (Wachner et al., 2020). Hierbij moeten gebruikers
-         toegang hebben tot het cookiebeleid of privacybeleid van de nieuwswebsite. Alle 22 nieuwswebsites die zijn vergeleken in dit 
-         onderzoek voldoen hieraan. Als de websites bezocht worden, verschijnt er een pop-up, waarin een korte versie van het privacy- 
-         en cookiebeleid staat. Het is mogelijk om hier op een link te klikken en zo de langere en volledige versie te bekijken. Echter 
-         blijkt wel dat deze verklaringen niet altijd goed gelezen worden, omdat gebruikers zo snel mogelijk door willen naar de website
-          (Steinfeld, 2016). <Br><br>
-
-         <p class="tussenkop">Keuzevrijheid</p>   
-        Ook moet er sprake zijn van keuzevrijheid, waarbij gebruikers zelf kunnen bepalen welke cookies zij accepteren en welke niet. 
-        Dit heeft met name betrekking tot de 'tracking cookies', want de functionele cookies zijn vaak noodzakelijk om een website te 
-        laten functioneren en deze zijn daarom niet af te wijzen. 20 van de 22 websites voldoen aan deze keuzevrijheid en hier is het 
-        dus mogelijk om deze 'tracking cookies' te verwijderen. Soms zijn hier wel veel kliks voor nodig, wat een extra drempel is om 
-        deze autonomie te bereiken. Er zijn twee websites waar het helemaal niet mogelijk is om cookies af te wijzen: de website van 
-        NOS en de website van het NRC. Dit is opvallend, omdat NOS ook de website is met het grootste aantal bezoekers 
-        (Nationaal Media Onderzoek, 2024). Het gebrek aan keuzevrijheid op deze site heeft impact op een grote groep mensen, waarbij 
-        de autonomie en privacy niet gewaarborgd kan worden. <Br><Br>
-        
-        <p class="tussenkop">Wijzig mogelijkheden</p>
-        Naast de keuzevrijheid is het belangrijk dat de gebruiker deze keuzes op elk gewenst moment kan veranderen, om de autonomie 
-        te waarborgen. Dit betekent dat er een eenvoudige manier moet zijn voor gebruikers om de voorkeuren aan te 
-        passen en dat hier niet veel tijd in gaat zitten. Bij de meeste websites is deze optie niet makkelijk vindbaar. In de meeste 
-        gevallen moet de gebruiker naar het einde van de website scrollen, waar dan ergens een klein kopje staat met ‘privacy instellingen’.
-         Hier is het dan pas mogelijk om de cookie voorkeuren aan te passen. Met name voor gebruikers die minder technische vaardigheden bezitten,
-          kan dit nog lastig zijn. Dus ondanks dat het wel altijd mogelijk is om deze voorkeuren aan te passen, wordt het de gebruiker niet 
-          makkelijk gemaakt. <Br><br>
-
-        <p class="tussenkop"> Vooraf ingestellde keuzes</p>
-        Een ander belangrijk aspect bij het waarborgen van autonomie op nieuwswebsites, is het ontbreken van vooraf ingestelde keuzes bij 
-        de cookievoorkeuren. Bij alle 22 websites is er wel sprake van vooraf ingestelde keuzes, wat een negatief effect heeft op de autonomie
-         van de gebruikers. Het is op alle websites meer moeite om de cookies te weigeren dan accepteren. Bij de pop-up die verschijnt bij 
-         het bezoeken van de website worden vaak twee opties gegeven: ‘accepteren’ of ‘cookie voorkeuren wijzigen’. Er staan dus standaard 
-         bepaalde cookies aangevinkt en als de gebruiker deze niet wil, moeten deze handmatig uitgezet worden. Hierbij wordt de gebruiker 
-         gestuurd om de cookies te accepteren, wat niet bevorderlijk is voor de autonomie. <Br><br>
-
-        <p class="tussenkop"> Conclusie</p>    
-        Kortom, door de grote invloed van nieuwswebsites is het behoud van autonomie van cruciaal belang. Transparantie en keuzevrijheid 
-        zijn hierbij belangrijke aspecten, maar nog niet alle nieuwswebsites voldoen hieraan. Vooral bij de grootste website: ‘NOS’, ontbreken
-         deze aspecten. Dit roept vragen op met betrekking tot de autonomie van veel Nederlandse gebruikers. Het is belangrijk om te streven
-        naar continue verbeteringen omtrent het cookiebeleid van deze websites, om zo de autonomie van gebruikers te waarborgen en een evenwicht
-        te vinden tussen personalisatie en privacy op deze invloedrijke platforms.
-
-
-        <br><br>
-
-    <!--cards met deelvragen-->
-      <!--deelvraag 2-->
-      <div class="image-container">
-        <a class="line color" href="deelvraag2.html">  
-            <article class="card_deelvraag">
-                    <p class="content-with-image">
-                        <span class="text-content">Deelvraag 2: Welke dark patterns, indien aanwezig, worden in het cookiebeleid van de nieuwswebsite geïdentificeerd?</span>
-                        <img src="deelvraag2.jpg" width="100" height="84" class="edges margin">
-                    </p>
-            </article>
-        </a>
-    </div>
-    <!--deelvraag 3-->
-    <div class="image-container">
-        <a class="line color" href="deelvraag3.html">  
-            <article class="card_deelvraag">
-                    <p class="content-with-image">
-                        <span class="text-content">Deelvraag 3: In hoeverre beïnvloeden cookies de autonomie van gebruikers op nieuwswebsites?</span>
-                        <img src="deelvraag3.jpg" width="100" height="84" class="edges margin">
-                    </p>
-            </article>
-        </a>
-    </div>
-    <br>
-    <br>
-    <!--volgende button-->
-    <div class="image-container">
-        <a class="line color" href="deelvraag2.html">  
-            <article class="card_volgende">
-                    <p class="content-with-image">
-                        <img src="laptop.png" width="40" height="34" class="edges margin">
-                        <span class="text-content margin">Volgende deelvraag &#x2192; </span>
-                    </p>
-            </article>
-        </a>
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    </div>
-
+    <p class="white-banner-top"> </p>
     
+    <div class="image-container margin">
+        <img src="images/deelvraag3.jpg" width="800" height="450">
+        <div class="text-overlay"> (Hallebeek, 2023)</div>
+    </div>
+    <p class="white-banner-foto"></p>
+    <p class="APC">APC Nieuws • Vrijdag 12 januari, 16:21 </p>
+    
+    <h1 class="margin">In hoeverre beïnvloeden cookies de autonomie van gebruikers op nieuwswebsites?</h1>
+
+    <div class="center-block_nieuwsbericht">
+        <br>
+        <div>
+            Autonomie betreft het vermogen en de vrijheid van individuen om zelfstandig keuzes te maken, gebaseerd op hun 
+            eigen overtuigingen, waarden en voorkeuren. Autonomie is een belangrijk recht en draagt bij aan het welzijn 
+            van mensen (Darwall, 2006). In de context van het gebruik van nieuwswebsites, houdt autonomie in dat de gebruikers 
+            de mogelijkheid hebben om ervoor te kiezen welke informatie ze wel willen delen en welke niet. Dit is met 
+            name van belang bij de 'tracking cookies', waarbij informatie vaak met derden wordt gedeeld (Mitchell, 2012).<br><Br>
+         
+            Nieuwswebsites hebben een cruciale rol in het medialandschap, omdat een groot deel van de mensen deze websites regelmatig 
+            gebruikt om actuele informatie te vergaren. Deze websites hebben een aanzienlijke invloed op het vormen van publieke opinies
+             en percepties (Mutz & Soss, 1997). Autonome keuzes met betrekking tot cookies zijn daarom van groot belang om ervoor te zorgen
+              dat individuen niet ongewild blootgesteld worden aan bepaalde informatie of dat hun persoonlijke gegevens niet zonder hun 
+              expliciete toestemming worden gebruikt.<br><br> 
+    
+             <p class="tussenkop">Transparantie</p> 
+            Om deze autonomie te ondersteunen is ten eerste transparantie van belang (Wachner et al., 2020). Hierbij moeten gebruikers
+             toegang hebben tot het cookiebeleid of privacybeleid van de nieuwswebsite. Alle 22 nieuwswebsites die zijn vergeleken in dit 
+             onderzoek voldoen hieraan. Als de websites bezocht worden, verschijnt er een pop-up, waarin een korte versie van het privacy- 
+             en cookiebeleid staat. Het is mogelijk om hier op een link te klikken en zo de langere en volledige versie te bekijken. Echter 
+             blijkt wel dat deze verklaringen niet altijd goed gelezen worden, omdat gebruikers zo snel mogelijk door willen naar de website
+              (Steinfeld, 2016). <Br><br>
+    
+             <p class="tussenkop">Keuzevrijheid</p>   
+            Ook moet er sprake zijn van keuzevrijheid, waarbij gebruikers zelf kunnen bepalen welke cookies zij accepteren en welke niet. 
+            Dit heeft met name betrekking tot de 'tracking cookies', want de functionele cookies zijn vaak noodzakelijk om een website te 
+            laten functioneren en deze zijn daarom niet af te wijzen. 20 van de 22 websites voldoen aan deze keuzevrijheid en hier is het 
+            dus mogelijk om deze 'tracking cookies' te verwijderen. Soms zijn hier wel veel kliks voor nodig, wat een extra drempel is om 
+            deze autonomie te bereiken. Er zijn twee websites waar het helemaal niet mogelijk is om cookies af te wijzen: de website van 
+            NOS en de website van het NRC. Dit is opvallend, omdat NOS ook de website is met het grootste aantal bezoekers 
+            (Nationaal Media Onderzoek, 2024). Het gebrek aan keuzevrijheid op deze site heeft impact op een grote groep mensen, waarbij 
+            de autonomie en privacy niet gewaarborgd kan worden. <Br><Br>
+            
+            <p class="tussenkop">Wijzig mogelijkheden</p>
+            Naast de keuzevrijheid is het belangrijk dat de gebruiker deze keuzes op elk gewenst moment kan veranderen, om de autonomie 
+            te waarborgen. Dit betekent dat er een eenvoudige manier moet zijn voor gebruikers om de voorkeuren aan te 
+            passen en dat hier niet veel tijd in gaat zitten. Bij de meeste websites is deze optie niet makkelijk vindbaar. In de meeste 
+            gevallen moet de gebruiker naar het einde van de website scrollen, waar dan ergens een klein kopje staat met ‘privacy instellingen’.
+             Hier is het dan pas mogelijk om de cookie voorkeuren aan te passen. Met name voor gebruikers die minder technische vaardigheden bezitten,
+              kan dit nog lastig zijn. Dus ondanks dat het wel altijd mogelijk is om deze voorkeuren aan te passen, wordt het de gebruiker niet 
+              makkelijk gemaakt. <Br><br>
+    
+            <p class="tussenkop"> Vooraf ingestellde keuzes</p>
+            Een ander belangrijk aspect bij het waarborgen van autonomie op nieuwswebsites, is het ontbreken van vooraf ingestelde keuzes bij 
+            de cookievoorkeuren. Bij alle 22 websites is er wel sprake van vooraf ingestelde keuzes, wat een negatief effect heeft op de autonomie
+             van de gebruikers. Het is op alle websites meer moeite om de cookies te weigeren dan accepteren. Bij de pop-up die verschijnt bij 
+             het bezoeken van de website worden vaak twee opties gegeven: ‘accepteren’ of ‘cookie voorkeuren wijzigen’. Er staan dus standaard 
+             bepaalde cookies aangevinkt en als de gebruiker deze niet wil, moeten deze handmatig uitgezet worden. Hierbij wordt de gebruiker 
+             gestuurd om de cookies te accepteren, wat niet bevorderlijk is voor de autonomie. <Br><br>
+    
+            <p class="tussenkop"> Conclusie</p>    
+            Kortom, door de grote invloed van nieuwswebsites is het behoud van autonomie van cruciaal belang. Transparantie en keuzevrijheid 
+            zijn hierbij belangrijke aspecten, maar nog niet alle nieuwswebsites voldoen hieraan. Vooral bij de grootste website: ‘NOS’, ontbreken
+             deze aspecten. Dit roept vragen op met betrekking tot de autonomie van veel Nederlandse gebruikers. Het is belangrijk om te streven
+            naar continue verbeteringen omtrent het cookiebeleid van deze websites, om zo de autonomie van gebruikers te waarborgen en een evenwicht
+            te vinden tussen personalisatie en privacy op deze invloedrijke platforms.<br><br>
+ 
+            Voor een overzicht van de verzamelde data zie onderstaande grafiek (zie <span><a href="dataset.html" class="doorverwijzing">dataset</a></span> voor volledig data).
+            <br><br>
+            <iframe src="graphs/maatstafen_autonomie_gebruiker.html" width="800" height="600"></iframe>
+
+<br><br>        
+<!--cards met deelvragen-->
+    <!--deelvraag 2-->
+    <div class="image-container">
+    <a class="line color" href="deelvraag4.html">  
+        <article class="card_deelvraag">
+                <p class="content-with-image">
+                    <span class="text-content">Deelvraag 4: In hoeverre kan de gebruiker zijn privacy waarborgen door alle niet-essentiële cookies af te wijzen op de nieuwswebsite?</span>
+                    <img src="images/deelvraag4.png" width="100" height="84" class="edges margin">
+                </p>
+        </article>
+    </a>
+</div>
+<!--deelvraag 3-->
+<div class="image-container">
+    <a class="line color" href="deelvraag5.html">  
+        <article class="card_deelvraag">
+                <p class="content-with-image">
+                    <span class="text-content">Deelvraag 5: In hoeverre voldoet de cookieverklaring van de nieuwswebsite aan de wettelijke eisen van de Algemene Verordening Gegevensbescherming (AVG)?
+                    </span>
+                    <img src="images/deelvraag5.png" width="100" height="84" class="edges margin">
+                </p>
+        </article>
+    </a>
+</div>
+<br>
+<br>
+<!--volgende button-->
+<div class="image-container">
+    <a class="line color" href="deelvraag4.html">  
+        <article class="card_volgende">
+                <p class="content-with-image">
+                    <img src="images/laptop.png" width="40" height="34" class="edges margin">
+                    <span class="text-content">Volgende deelvraag &#x2192;&emsp;&emsp; </span>
+                </p>
+        </article>
+    </a>
+</div>
+<br>
+<br>
+<br>
+<br>
 
 
-
-
-
-</body>
+</div>

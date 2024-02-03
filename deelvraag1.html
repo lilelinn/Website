@@ -2,332 +2,183 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link href="styles.css" rel="stylesheet">
-    <link href="styles_card.css" rel="stylesheet">
-    <title>Deelvraag 1</title>
+    <link href="CSS_files/style_menu.css" rel="stylesheet">
+    <link href="CSS_files/style_images.css" rel="stylesheet">
+    <link href="CSS_files/style_newsarticle.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
 </head>
+<header>
+<br>
+<div class="center-block">   
+<!-- Logo that links to the homepage -->
+    <a class="line" href="index.html"> 
+        <img src="images/APC.jpg" height="75px" width="75px" alt="APC Logo">
+    </a> 
+
+    <!--Menu Items -->
+    <div class="dropdown margin-menu">
+        <a href="inleiding.html" class="nav-link dropbtn">Inleiding</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="methode.html" class="nav-link dropbtn">Methode</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="deelvragen.html" class="nav-link dropbtn active">Deelvragen <span class="arrow down"></span></a>
+        <div class="dropdown-content">
+            <a href="deelvraag1.html" class="nav-link active">Deelvraag 1</a>
+            <a href="deelvraag2.html" class="nav-link">Deelvraag 2</a>
+            <a href="deelvraag3.html" class="nav-link">Deelvraag 3</a>
+            <a href="deelvraag4.html" class="nav-link">Deelvraag 4</a>
+            <a href="deelvraag5.html" class="nav-link">Deelvraag 5</a>
+        </div>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="Conclusie.html" class="nav-link dropbtn">Conclusie</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="dataset.html" class="nav-link dropbtn">Dataset</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="APC.html" class="nav-link dropbtn">Over APC nieuws</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="literatuur.html" class="nav-link dropbtn">Literatuur</a>
+    </div>
+    </div>
+
+    <p class="menu_line"></p>
+</header>
+
+<!--nieuwsartikel-->
 <body>
-
-    <div class = "center-block">
-        <a class="line" href="cookies_home.html"> 
-            <img src="APC.jpg"height="75" width="75">
-        </a> 
+    <!--afbeelding deelvraag en bijhorende tekst-->
+    <p class="white-banner-top"> </p>
     
-        <div class="dropdown margin-menu">
-            <a href="inleiding.html" class="nav-link dropbtn">Inleiding</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="methode.html" class="nav-link dropbtn">Methode</a>
-        </div>
-    
-    
-        <div class="dropdown margin-menu">
-            <a href="deelvragen.html" class="nav-link active dropbtn">Deelvragen <span><i class="arrow_active down"></i></span></a>
-            <div class="dropdown-content">
-                <a href="deelvraag1.html" class="nav-link active">Deelvraag 1</a>
-                <a href="deelvraag2.html" class="nav-link">Deelvraag 2</a>
-                <a href="deelvraag3.html" class="nav-link">Deelvraag 3</a>
-                <a href="deelvraag4.html" class="nav-link">Deelvraag 4</a>
-                <a href="deelvraag5.html" class="nav-link">Deelvraag 5</a>
-            </div>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="hoofdvraag.html" class="nav-link dropbtn">Hoofdvraag</a>
-        </div>
-
-        <div class="dropdown margin-menu">
-            <a href="Conclusie.html" class="nav-link dropbtn">Conclusie</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="dataset.html" class="nav-link dropbtn">Dataset</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="APC.html" class="nav-link dropbtn">Over APC nieuws</a>
-        </div>
-
-        <div class="dropdown margin-menu">
-            <a href="literatuur.html" class="nav-link dropbtn">Literatuur</a>
-        </div>
-    
-        
+    <div class="image-container margin">
+        <img src="images/deelvraag1.png" width="800" height="450">
+        <div class="text-overlay"> (Forbes Agency Council, 2023)</div>
     </div>
+    <p class="white-banner-foto"></p>
+    <p class="APC">APC Nieuws • Woensdag 10 januari, 13:31 </p>
+    
+    <h1 class="margin">Welke soorten cookies worden in het cookiebeleid van de nieuwswebsite gehanteerd?</h1>
 
-<p class="line"></p>
-
-<!--afbeelding deelvraag en bijhorende tekst-->
-<p class="white-banner-top"> </p>
-
-<div class="image-container margin">
-    <img src="deelvraag1.jpg" width="800" height="450" class="edges">
-    <div class="text-overlay">(Ringel, 2021)</div>
-</div>
-<p class="white-banner-foto"></p>
-<p class="APC">APC Nieuws • Maandag 29 januari, 12:31 </p>
-
-<h1 class="margin">Welke soorten cookies worden in het cookiebeleid van de </h1>
-<h1 class="margin">  nieuwswebsite gehanteerd?</h1>
-
-<p class="white-banner-foto"></p>
-
-<!--antwoord deelvraag-->
-<div class="center-block_nieuwsbericht">
-    <div>
-        Organisaties kunnen gebruik maken van drie soorten cookies op hun website, namelijk functionele cookies, 
-        analytische cookies en tracking cookies. Functionele cookies en analytische cookies zijn essentiële cookies. 
-        Dit zijn cookies die automatisch op het apparaat van de gebruiker worden geplaatst, omdat ze nodig zijn om 
-        bepaalde acties te laten plaatsvinden op een website. Tracking cookies zijn niet-essentiële cookies. Dit zijn 
-        alle cookies die niet vallen onder essentieel. Ze worden onder andere gebruikt om gebruikersgedrag te analyseren 
-        of om gepersonaliseerde advertenties weer te geven. Ze zijn dus niet nodig om een website goed werkende te 
-        houden (WIX, z.d.). Eerst zal worden toegelicht wat de drie verschillende soorten cookies inhouden. Vervolgens zal 
-        per nieuwswebsite worden aangeven of ze gebruik maken van cookies en welke cookies dit zijn.
-        <br><br>
-    </div>
-
-    <p class="tussenkop"> Functionele cookies</p>
-
-    <div>
-        Functionele cookies zijn noodzakelijk om een website goed te laten werken. Een website-eigenaar heeft geen toestemming 
-        van de gebruiker nodig om deze cookies te plaatsen. Het wordt wel aangeraden om gebruikers te informeren over deze cookies.  
-        Een voorbeeld hiervan is een cookie die de inhoud van een winkelwagentje onthoudt (<i>Cookies</i>, z.d.).
-        <br><br>
-    </div>
-
-    <p class="tussenkop"> Analytische cookies</p>
-
-    <div>
-        Analytische cookies geven inzicht in het functioneren van een website. Een website-eigenaar heeft voor het plaatsen van 
-        analytische cookies geen toestemming nodig (<i>Cookies</i>, z.d.).Deze cookies kunnen niet worden gebruikt om gebruikers anders 
-        te behandelen. De cookies hebben daarnaast bijna geen gevolgen voor de privacy van gebruikers van de website. Desondanks 
-        moeten website-eigenaren nog steeds gebruikers informeren dat deze cookies aanwezig zijn op de website (<i>Cookies</i>, z.d.).
-        <br><br>
-    </div>
-
-    <p class="tussenkop"> Tracking cookies</p>
-
-    <div>
-        Tracking cookies zijn cookies die bij bezoek aan een andere website ook kunnen worden uitgelezen. Deze cookies zorgen 
-        ervoor dat organisaties het internetgedrag van mensen kunnen volgen over een langere periode. Deze cookies maken het 
-        mogelijk om profielen van mensen op te stellen en hen anders te behandelen. Met deze cookies worden meestal persoonsgegevens 
-        verwerkt (<i>Tracking cookies</i>, z.d.).
-        <br><br>
-        Om gebruik te kunnen maken van tracking cookies op een website moet worden voldaan aan de regels van de Algemene verordening 
-        gegevensbescherming (AVG). De belangrijkste vereisten voor een website-eigenaar zijn dat de website-eigenaar:
-        <ul>
-            <li>een grondslag heeft voor de gegevensverwerking;</li>
-            <li>bezoekers op tijd en goed informeert;</li>
-            <li>de gegevens goed beveiligt (<i>Tracking cookies</i>, z.d.).</li>
-        </ul>
+    <div class="center-block_nieuwsbericht">
+        <div>
+            <br>
+            Organisaties kunnen gebruik maken van drie soorten cookies op hun website, namelijk functionele cookies, 
+            analytische cookies en tracking cookies. Functionele cookies en analytische cookies zijn essentiële cookies. 
+            Dit zijn cookies die automatisch op het apparaat van de gebruiker worden geplaatst, omdat ze nodig zijn om 
+            bepaalde acties te laten plaatsvinden op een website. Tracking cookies zijn niet-essentiële cookies. Dit zijn 
+            alle cookies die niet vallen onder essentieel. Ze worden onder andere gebruikt om gebruikersgedrag te analyseren 
+            of om gepersonaliseerde advertenties weer te geven. Ze zijn dus niet nodig om een website goed werkende te 
+            houden (WIX, z.d.). Eerst zal worden toegelicht wat de drie verschillende soorten cookies inhouden. Vervolgens zal 
+            per nieuwswebsite worden aangeven of ze gebruik maken van cookies en welke cookies dit zijn.
+            <br><br>
+        </div>
+    
+        <p class="tussenkop"> Functionele cookies</p>
+    
+        <div>
+            Functionele cookies zijn noodzakelijk om een website goed te laten werken. Een website-eigenaar heeft geen toestemming 
+            van de gebruiker nodig om deze cookies te plaatsen. Het wordt wel aangeraden om gebruikers te informeren over deze cookies.  
+            Een voorbeeld hiervan is een cookie die de inhoud van een winkelwagentje onthoudt (<i>Cookies</i>, z.d.).
+            <br><br>
+        </div>
+    
+        <p class="tussenkop"> Analytische cookies</p>
+    
+        <div>
+            Analytische cookies geven inzicht in het functioneren van een website. Een website-eigenaar heeft voor het plaatsen van 
+            analytische cookies geen toestemming nodig (<i>Cookies</i>, z.d.).Deze cookies kunnen niet worden gebruikt om gebruikers anders 
+            te behandelen. De cookies hebben daarnaast bijna geen gevolgen voor de privacy van gebruikers van de website. Desondanks 
+            moeten website-eigenaren nog steeds gebruikers informeren dat deze cookies aanwezig zijn op de website (<i>Cookies</i>, z.d.).
+            <br><br>
+        </div>
+    
+        <p class="tussenkop"> Tracking cookies</p>
+    
+        <div>
+            Tracking cookies zijn cookies die bij bezoek aan een andere website ook kunnen worden uitgelezen. Deze cookies zorgen 
+            ervoor dat organisaties het internetgedrag van mensen kunnen volgen over een langere periode. Deze cookies maken het 
+            mogelijk om profielen van mensen op te stellen en hen anders te behandelen. Met deze cookies worden meestal persoonsgegevens 
+            verwerkt (<i>Tracking cookies</i>, z.d.).
+            <br><br>
+            Om gebruik te kunnen maken van tracking cookies op een website moet worden voldaan aan de regels van de Algemene verordening 
+            gegevensbescherming (AVG). De belangrijkste vereisten voor een website-eigenaar zijn dat de website-eigenaar:
+            <ul>
+                <li>een grondslag heeft voor de gegevensverwerking;</li>
+                <li>bezoekers op tijd en goed informeert;</li>
+                <li>de gegevens goed beveiligt (<i>Tracking cookies</i>, z.d.).</li>
+            </ul>
+            <br>
+            Daarnaast moet de website-eigenaar websitebezoekers informeren over:
+            <ul>
+                <li>de soorten persoonsgegevens die via cookies worden verzamelt en verwerkt;</li>
+                <li>De intenties van de gegevensverwerking;</li>
+                <li>De bedrijven of derde partijen waaraan gegevens worden versterkt;</li>
+                <li>Hoelang de gegevens worden bewaard;</li>
+                <li>Overige informatie die nodig is om gebruikers een eerlijk beeld te geven van 
+                    de gegevensverwerking (<i>Tracking cookies</i>, z.d.).</li>
+            </ul>
+        </div>
         <br>
-        Daarnaast moet de website-eigenaar websitebezoekers informeren over:
-        <ul>
-            <li>de soorten persoonsgegevens die via cookies worden verzamelt en verwerkt;</li>
-            <li>De intenties van de gegevensverwerking;</li>
-            <li>De bedrijven of derde partijen waaraan gegevens worden versterkt;</li>
-            <li>Hoelang de gegevens worden bewaard;</li>
-            <li>Overige informatie die nodig is om gebruikers een eerlijk beeld te geven van 
-                de gegevensverwerking (<i>Tracking cookies</i>, z.d.).</li>
-        </ul>
+        <p class="tussenkop">Analyse</p>
+        Uit het onderzoek blijkt dat alle 20 websites gebruikmaken van zowel functionele als analytische cookies. 
+        Het gebruik van tracking cookies verschilt per website. Wat opvalt is dat NOS en NRC geen gebruik maken van cookies. 
+        Ook valt op dat alle andere websites enorm veel partners hebben voor advertentie cookies (zie <span><a href="dataset.html" class="doorverwijzing">dataset</a></span> voor volledig data).
+        <iframe src="graphs/tracking_partners_nieuwsmedia.html" width="800" height="600"></iframe>
 
-        Nu duidelijk is welke soorten cookies er aanwezig kunnen zijn op websites, kan gekeken worden van welke cookies de 
-        top 20 meest bezochte nieuwswebsites in Nederland gebruik maken. Daaruit is het volgende gekomen:
-        <br><br>
-    </div>
-    <p class="tabelheader">Aanwezigheid cookies per nieuwswebsite</p>
-    <table>
-        <tr>      
-          <th>Nieuwswebsite</th>
-          <th>Functionele cookies</th>
-          <th>Analytische cookies</th>
-          <th>Tracking cookies</th>
-        </tr>
-        <tr>
-          <td>NOS</td>
-          <td>Aanwezig</td>
-          <td>Aanwezig</td>
-          <td>Niet Aanwezig</td>
-        </tr>
-        <tr>
-            <td>Algemeen Dagblad</td>
-            <td>Aanwezig</td>
-            <td>Aanwezig</td>
-            <td>6 Aanwezig (+ 168 partners voor advertenties)</td>
-        </tr>
-        <tr>
-            <td>RTL nieuws</td>
-            <td>Aanwezig</td>
-            <td>Aanwezig</td>
-            <td>15 Aanwezig</td>
-        </tr>
-        <tr>
-            <td>NU.nl</td>
-            <td>Aanwezig</td>
-            <td>Aanwezig</td>
-            <td>6 Aanwezig (+ 168 partners voor advertenties)</td>
-        </tr>
-        <tr>
-            <td>De Telegraaf</td>
-            <td>Aanwezig</td>
-            <td>Aanwezig</td>
-            <td>10 Aanwezig</td>
-        </tr>
-        <tr>
-            <td>De Gelderlander</td>
-            <td>Aanwezig</td>
-            <td>Aanwezig</td>
-            <td>6 Aanwezig (+ 168 partners voor advertenties)</td>
-        </tr>
-        <tr>
-            <td>indebuurt</td>
-            <td>Aanwezig</td>
-            <td>Aanwezig</td>
-            <td>6 Aanwezig (+ 168 partners voor advertenties)</td>
-        </tr>
-        <tr>
-            <td>Metro</td>
-            <td>Aanwezig</td>
-            <td>Aanwezig</td>
-            <td>8 Aanwezig</td>
-        </tr>
-        <tr>
-            <td>de Volkskrant</td>
-            <td>Aanwezig</td>
-            <td>Aanwezig</td>
-            <td>6 Aanwezig (+ 168 partners voor advertenties)</td>
-        </tr>
-        <tr>
-            <td>NRC</td>
-            <td>Aanwezig</td>
-            <td>Aanwezig</td>
-            <td>Niet Aanwezig</td>
-        </tr>
-        <tr>
-            <td>De Stentor</td>
-            <td>Aanwezig</td>
-            <td>Aanwezig</td>
-            <td>6 Aanwezig (+ 168 partners voor advertenties)</td>
-        </tr>
-        <tr>
-            <td>Hart van Nederland</td>
-            <td>Aanwezig</td>
-            <td>Aanwezig (kan je uitzetten)</td>
-            <td>3 Aanwezig</td>
-        </tr>
-        <tr>
-            <td>Het Parool</td>
-            <td>Aanwezig</td>
-            <td>Aanwezig</td>
-            <td>6 Aanwezig (+ 168 partners voor advertenties)</td>
-        </tr>
-        <tr>
-            <td>Brabants Dagblad</td>
-            <td>Aanwezig</td>
-            <td>Aanwezig</td>
-            <td>6 Aanwezig (+ 136 partners voor advertenties)</td>
-        </tr>
-        <tr>
-            <td>BNR Nieuwsradio</td>
-            <td>Aanwezig</td>
-            <td>Aanwezig</td>
-            <td>6 Aanwezig (+ 56 partners voor advertenties)</td>
-        </tr>
-        <tr>
-            <td>Tubantia</td>
-            <td>Aanwezig</td>
-            <td>Aanwezig</td>
-            <td>6 Aanwezig (+ 136 partners voor advertenties)</td>
-        </tr>
-        <tr>
-            <td>BN DeStem</td>
-            <td>Aanwezig</td>
-            <td>Aanwezig</td>
-            <td>6 Aanwezig (+ 136 partners voor advertenties)</td>
-        </tr>
-        <tr>
-            <td>Trouw</td>
-            <td>Aanwezig</td>
-            <td>Aanwezig</td>
-            <td>6 Aanwezig (+ 168 partners voor advertenties)</td>
-        </tr>
-        <tr>
-            <td>Eindhovens Dagblad</td>
-            <td>Aanwezig</td>
-            <td>Aanwezig</td>
-            <td>6 Aanwezig (+ 136 partners voor advertenties)</td>
-        </tr>
-        <tr>
-            <td>Noordhollands Dagblad</td>
-            <td>Aanwezig</td>
-            <td>Aanwezig</td>
-            <td>14 Aanwezig</td>
-        </tr>
-      </table>
-      <br><br>
-      <p class="tussenkop"> Analyse data</p>
-      Opvallend is dat er een aantal websites zijn die gebruik maken van exact dezelfde cookies. 
-      Zo zijn er acht websites die gebruik maken van 6 soorten tracking cookies met daarbij nog 168 partners voor 
-      advertenties. Deze websites vallen allemaal onder DPG Media. Wat ook opvalt is dat er vier websites zijn die 
-      gebruik maken van 6 soorten cookies met daarbij 136 partners voor advertenties. Ook deze websites vallen onder 
-      DPG Media. De websites die niet onder DPG Media vallen maken geen gebruik van partners. Tot slot valt op dat NOS
-      en NRC helemaal geen gebruik maken van tracking cookies.
-      <br><br>
-      <!--cards met deelvragen-->
-      <!--deelvraag 2-->
-        <div class="image-container">
-            <a class="line color" href="deelvraag2.html">  
-                <article class="card_deelvraag">
-                        <p class="content-with-image">
-                            <span class="text-content">Deelvraag 2: Welke dark patterns, indien aanwezig, worden in het cookiebeleid van de nieuwswebsite geïdentificeerd?</span>
-                            <img src="deelvraag2.jpg" width="100" height="84" class="edges margin">
-                        </p>
-                </article>
-            </a>
-        </div>
+
+
+<!--deelvraag 2-->
+<div class="image-container">
+    <a class="line color" href="deelvraag2.html">  
+        <article class="card_deelvraag">
+                <p class="content-with-image">
+                    <span class="text-content">Deelvraag 2: Welke dark patterns, indien aanwezig, worden in het cookiebeleid van de nieuwswebsite geïdentificeerd?</span>
+                    <img src="images/deelvraag2.jpg" width="100" height="84" class="edges margin">
+                </p>
+        </article>
+    </a>
+</div>
+<br>
+<br>
+
         <!--deelvraag 3-->
         <div class="image-container">
             <a class="line color" href="deelvraag3.html">  
                 <article class="card_deelvraag">
                         <p class="content-with-image">
-                            <span class="text-content">Deelvraag 3: In hoeverre beïnvloeden cookies de autonomie van gebruikers op nieuwswebsites?</span>
-                            <img src="deelvraag3.jpg" width="100" height="84" class="edges margin">
+                            <span class="text-content">Deelvraag 3: Welke soorten cookies worden in het cookiebeleid van de nieuwswebsite gehanteerd?</span>
+                            <img src="images/deelvraag3.jpg" width="100" height="84" class="edges margin">
                         </p>
                 </article>
             </a>
         </div>
-        <br>
-        <br>
-        <!--volgende button-->
-        <div class="image-container">
-            <a class="line color" href="deelvraag2.html">  
-                <article class="card_volgende">
-                        <p class="content-with-image">
-                            <img src="laptop.png" width="40" height="34" class="edges margin">
-                            <span class="text-content margin">Volgende deelvraag &#x2192; </span>
-                        </p>
-                </article>
-            </a>
-        </div>
-        <br>
-        <br>
-        <br>
-        <br>
-
-
-    </div>
-</body>
-
+<!--volgende button-->
+<div class="image-container">
+    <a class="line color" href="deelvraag2.html">  
+        <article class="card_volgende">
+                <p class="content-with-image">
+                    <img src="images/laptop.png" width="40" height="34" class="edges margin">
+                    <span class="text-content">Volgende deelvraag &#x2192;&emsp;&emsp; </span>
+                </p>
+        </article>
+    </a>
+</div>
+<br>
+<br>
+<br>
+<br>        
+</div>
     
 
-    
-
-
-
-
-
-
-
-
-    
+</body>    

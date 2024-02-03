@@ -2,72 +2,119 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link href="styles.css" rel="stylesheet">
-    <link href="styles_card.css" rel="stylesheet">
-    <link href="styles_popup.css" rel="stylesheet">
-    <title>Inleiding</title>
+    <link href="CSS_files/style_menu.css" rel="stylesheet">
+    <link href="CSS_files/style_images.css" rel="stylesheet">
+    <link href="CSS_files/style_newsarticle.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
 </head>
-<body>
+<header>
+<br>
+<div class="center-block">   
+<!-- Logo that links to the homepage -->
+    <a class="line" href="index.html"> 
+        <img src="images/APC.jpg" height="75px" width="75px" alt="APC Logo">
+    </a> 
 
-    <div class = "center-block">
-        <a class="line" href="cookies_home.html"> 
-            <img src="APC.jpg"height="75" width="75">
-        </a> 
-    
-        <div class="dropdown margin-menu">
-            <a href="inleiding.html" class="nav-link dropbtn">Inleiding</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="methode.html" class="nav-link dropbtn">Methode</a>
-        </div>
-    
-    
-        <div class="dropdown margin-menu">
-            <a href="deelvragen.html" class="nav-link dropbtn">Deelvragen <span><i class="arrow_active down"></i></span></a>
-            <div class="dropdown-content">
-                <a href="deelvraag1.html" class="nav-link">Deelvraag 1</a>
-                <a href="deelvraag2.html" class="nav-link">Deelvraag 2</a>
-                <a href="deelvraag3.html" class="nav-link">Deelvraag 3</a>
-                <a href="deelvraag4.html" class="nav-link">Deelvraag 4</a>
-                <a href="deelvraag5.html" class="nav-link">Deelvraag 5</a>
-            </div>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="hoofdvraag.html" class="nav-link dropbtn">Hoofdvraag</a>
-        </div>
-
-        <div class="dropdown margin-menu">
-            <a href="Conclusie.html" class="nav-link dropbtn active">Conclusie</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="dataset.html" class="nav-link dropbtn">Dataset</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="APC.html" class="nav-link dropbtn">Over APC nieuws</a>
-        </div>
-
-        <div class="dropdown margin-menu">
-            <a href="literatuur.html" class="nav-link dropbtn">Literatuur</a>
-        </div>
-    
-        
+    <!--Menu Items -->
+    <div class="dropdown margin-menu">
+        <a href="inleiding.html" class="nav-link dropbtn">Inleiding</a>
     </div>
-    
-    <p class="line"></p>
+
+    <div class="dropdown margin-menu">
+        <a href="methode.html" class="nav-link dropbtn">Methode</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="deelvragen.html" class="nav-link dropbtn">Deelvragen <span class="arrow down"></span></a>
+        <div class="dropdown-content">
+            <a href="deelvraag1.html" class="nav-link">Deelvraag 1</a>
+            <a href="deelvraag2.html" class="nav-link">Deelvraag 2</a>
+            <a href="deelvraag3.html" class="nav-link">Deelvraag 3</a>
+            <a href="deelvraag4.html" class="nav-link">Deelvraag 4</a>
+            <a href="deelvraag5.html" class="nav-link">Deelvraag 5</a>
+        </div>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="Conclusie.html" class="nav-link dropbtn active">Conclusie</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="dataset.html" class="nav-link dropbtn">Dataset</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="APC.html" class="nav-link dropbtn">Over APC nieuws</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="literatuur.html" class="nav-link dropbtn">Literatuur</a>
+    </div>
+    </div>
+
+    <p class="menu_line"></p>
+</header>
+
+<!--nieuwsartikel-->
+<body>
     <!--afbeelding deelvraag en bijhorende tekst-->
     <p class="white-banner-top"> </p>
-
+    
     <div class="image-container margin">
-        <img src="conclusie.jpg" width="800" height="450" class="edges">
-        <div class="text-overlay">(Zhu, 2021)</div>
+        <img src="images/conclusie.png" width="800" height="450">
+        <div class="text-overlay"> (Badische Zeitung,2020)</div>
     </div>
     <p class="white-banner-foto"></p>
-    <p class="APC">APC Nieuws • Maandag 29 januari, 12:31 </p>
+    <p class="APC">APC Nieuws • Woensdag 10 januari, 13:31 </p>
+    
+    <h1 class="margin">In hoeverre waarborgt het cookiebeleid van prominente Nederlandse nieuwswebsites de autonomie en privacy van gebruikers?</h1>
 
-    <h1 class="margin">Conclusie</h1>
-    <p class="white-banner-foto"></p>
-</body>    
+    <div class="center-block_nieuwsbericht">
+    In dit onderzoek  wordt er geprobeerd om een antwoord te vinden op de hoofdvraag: “In hoeverre waarborgt het cookiebeleid van prominente Nederlandse nieuwswebsites de autonomie en privacy van gebruikers?” 
+	<br><br>Allereerst zijn de verschillende typen cookies geïdentificeerd als: functionele, analytische en tracking cookies. Hierbij worden functionele en analytische cookies vaak ingezet voor functionele doeleinden, maar tracking cookies dienen hier niet voor en verwerken meestal privacygevoelige gegevens. Uit analyse van de nieuwswebsites bleek dat veel nieuwswebsites vielen onder een groter mediabedrijf (e.g., DPG Media), hierdoor kwamen de gebruikte typen cookies erg overeen op deze nieuwswebsites. 
+	<Br><br>Vervolgens is er gekeken naar het gebruik van dark patterns bij het ontwerp van de cookiebanners op de verschillende nieuwswebsites. De meest voorkomende gevonden dark patterns op de nieuwswebsites zijn interface interference en obstruction. Hierbij worden bepaalde acties visueel bevoorrecht in de cookiebanner en andere acties juist lastiger gemaakt voor de gebruiker. 
+	<br><br>Bij deelvraag drie is er gekeken naar hoe de verschillende cookies effect hebben op de autonomie van de gebruiker. Hierbij is er bij de cookiebanners van websites gekeken naar transparantie, keuzevrijheid, mogelijkheid tot wijzigen en het ontbreken van vooraf ingestelde keuzes. Uit de analyse bleek dat voornamelijk de NOS en het NRC weinig keuzevrijheid bieden aan de gebruikers.
+	<br><br>Ook is er gekeken naar hoeveel acties de cookiebanners vergen om alle optionele cookies te weigeren. Hierbij wordt er onderscheid gemaakt tussen de acties scrollen en klikken. Uit de analyse blijkt dat er bij veel websites twee of meer acties moeten worden genomen om alle optionele cookies te weigeren. 
+	<Br><Br>Tot slot is er gekeken of de verschillende nieuwswebsites voldoen aan de AVG-richtlijnen. Deze volgen uit de belangrijkste privacywet binnen de Europese Unie die zich bezighoudt met de bescherming van persoonsgegevens. Uit de analyse blijkt echter dat vrijwel alle nieuwswebsites, met uitzondering van de NOS, de AVG-richtlijnen op een bepaalde manier schenden.
+	<Br><br>In het algemeen benadrukken de resultaten van de deelvragen dus dat er noodzaak is tot verbetering in de omgang van cookies door de verschillende nieuwswebsites. Niet alleen vanuit rechtmatig belang door overtredingen van de AVG-richtlijnen, maar ook moreel belang speelt hier een rol. Het afwijzen van alle optionele cookies zou immers niet moeilijker moeten zijn dan alle cookies accepteren. Het antwoord op de hoofdvraag is dus dat op dit moment de autonomie en privacy van de gebruiker niet voldoende wordt gewaarborgd door de verschillende nieuwswebsites. 
+<!--deelvraag 2-->
+<div class="image-container">
+    <a class="line color" href="dataset.html">  
+        <article class="card_deelvraag">
+                <p class="content-with-image">
+                    <span class="text-content">Hier is een overzicht te vinden van alle verzamelde data</span>
+                    <img src="images/dataset.png" width="100" height="84" class="edges margin">
+                </p>
+        </article>
+    </a>
+</div>
+<br>
+<br>
+
+        <!--deelvraag 3-->
+        <div class="image-container">
+            <a class="line color" href="APC.html">  
+                <article class="card_deelvraag">
+                        <p class="content-with-image">
+                            <span class="text-content">Wat is APC nieuws?</span>
+                            <img src="images/APC.jpg" width="84" height="84" class="edges margin">
+                        </p>
+                </article>
+            </a>
+        </div>
+<!--volgende button-->
+<div class="image-container">
+    <a class="line color" href="deelvraag2.html">  
+        <article class="card_volgende">
+                <p class="content-with-image">
+                    <img src="images/laptop.png" width="40" height="34" class="edges margin">
+                    <span class="text-content">Dataset &#x2192;&emsp;&emsp; </span>
+                </p>
+        </article>
+    </a>
+</div>
+<br>
+<br>
+<br>
+<br>        

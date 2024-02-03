@@ -2,73 +2,90 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link href="styles.css" rel="stylesheet">
-    <link href="styles_card.css" rel="stylesheet">
-    <link href="styles_popup.css" rel="stylesheet">
-    <title>Inleiding</title>
+    <link href="CSS_files/style_menu.css" rel="stylesheet">
+    <link href="CSS_files/style_images.css" rel="stylesheet">
+    <link href="CSS_files/style_newsarticle.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
 </head>
-<body>
+<header>
+<br>
+<div class="center-block">   
+<!-- Logo that links to the homepage -->
+    <a class="line" href="index.html"> 
+        <img src="images/APC.jpg" height="75px" width="75px" alt="APC Logo">
+    </a> 
 
-    <div class = "center-block">
-        <a class="line" href="cookies_home.html"> 
-            <img src="APC.jpg"height="75" width="75">
-        </a> 
-    
-        <div class="dropdown margin-menu">
-            <a href="inleiding.html" class="nav-link dropbtn">Inleiding</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="methode.html" class="nav-link dropbtn active">Methode</a>
-        </div>
-    
-    
-        <div class="dropdown margin-menu">
-            <a href="deelvragen.html" class="nav-link dropbtn">Deelvragen <span><i class="arrow_active down"></i></span></a>
-            <div class="dropdown-content">
-                <a href="deelvraag1.html" class="nav-link">Deelvraag 1</a>
-                <a href="deelvraag2.html" class="nav-link">Deelvraag 2</a>
-                <a href="deelvraag3.html" class="nav-link">Deelvraag 3</a>
-                <a href="deelvraag4.html" class="nav-link">Deelvraag 4</a>
-                <a href="deelvraag5.html" class="nav-link">Deelvraag 5</a>
-            </div>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="hoofdvraag.html" class="nav-link dropbtn">Hoofdvraag</a>
-        </div>
-
-        <div class="dropdown margin-menu">
-            <a href="Conclusie.html" class="nav-link dropbtn">Conclusie</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="dataset.html" class="nav-link dropbtn">Dataset</a>
-        </div>
-    
-        <div class="dropdown margin-menu">
-            <a href="APC.html" class="nav-link dropbtn">Over APC nieuws</a>
-        </div>
-
-        <div class="dropdown margin-menu">
-            <a href="literatuur.html" class="nav-link dropbtn">Literatuur</a>
-        </div>
-    
-        
+    <!--Menu Items -->
+    <div class="dropdown margin-menu">
+        <a href="inleiding.html" class="nav-link dropbtn">Inleiding</a>
     </div>
-    
-    <p class="line"></p>
 
+    <div class="dropdown margin-menu">
+        <a href="methode.html" class="nav-link dropbtn active">Methode</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="deelvragen.html" class="nav-link dropbtn">Deelvragen <span class="arrow down"></span></a>
+        <div class="dropdown-content">
+            <a href="deelvraag1.html" class="nav-link">Deelvraag 1</a>
+            <a href="deelvraag2.html" class="nav-link">Deelvraag 2</a>
+            <a href="deelvraag3.html" class="nav-link">Deelvraag 3</a>
+            <a href="deelvraag4.html" class="nav-link">Deelvraag 4</a>
+            <a href="deelvraag5.html" class="nav-link">Deelvraag 5</a>
+        </div>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="Conclusie.html" class="nav-link dropbtn">Conclusie</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="dataset.html" class="nav-link dropbtn">Dataset</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="APC.html" class="nav-link dropbtn">Over APC nieuws</a>
+    </div>
+
+    <div class="dropdown margin-menu">
+        <a href="literatuur.html" class="nav-link dropbtn">Literatuur</a>
+    </div>
+    </div>
+
+    <p class="menu_line"></p>
+</header>
+<body>
 <!--afbeelding deelvraag en bijhorende tekst-->
 <p class="white-banner-top"> </p>
 
 <div class="image-container margin">
-    <img src="methode.jpg" width="800" height="450" class="edges">
-    <div class="text-overlay">(Wolfram, 2017)</div>
+    <img src="images/methode.png" width="800" height="450">
+    <div class="text-overlay">(Devimpact Institute, z.d.)</div>
 </div>
 <p class="white-banner-foto"></p>
-<p class="APC">APC Nieuws • Maandag 29 januari, 12:31 </p>
+<p class="APC">APC Nieuws • Dinsdag 9 januari, 12:21 </p>
 
-<h1 class="margin">Methode</h1>
-<p class="white-banner-foto"></p>
-</body>
+<h1 class="margin"> Hoe is het onderzoek uitgevoerd? </h1>
+
+
+<br<br>
+<div class="center-block_nieuwsbericht">
+    <br>
+    Voor het gehele onderzoek is een literatuuronderzoek uitgevoerd. Daarnaast is er per deelvraag bepaalde data verzameld. De methode hiervoor
+    is per deelvraag anders. Hieronder is per deelvraag kort omschreven hoe data is verzameld.
+    <Br><Br>
+    <p class="tussenkop"> Deelvraag 1</p>
+    Voor deelvraag 1 is er eerst met behulp van literatuuronderzoek bepaald welke soorten cookies er op websites aanwezig kunnen zijn. Daarna
+    is  er voor elke website in de top 20 nieuwswebsite gekeken naar welke cookies er aanwezig zijn. Daarnaast is gekeken naar 
+    hoeveel tracking cookies er per website aanwezig zijn. Dit was terug te vinden op de websites in cookie banners en cookie meldingen.
+    <br><br>
+    <p class="tussenkop">Deelvraag 2</p>
+    Voor deelvraag 2 is eerst gekeken naar welke dark patterns organisaties op hun websites voor cookies kunnen gebruiken. Vervolgens is gekeken
+    op de 20 grootste nieuwswebsites van Nederland welke dark patterns er per website gebruikt worden.
+    <Br><br>
+    <p class="tussenkop">Deelvraag 3</p>
+
+
+</div>
+</body>       

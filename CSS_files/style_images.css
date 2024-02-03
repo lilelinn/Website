@@ -1,0 +1,214 @@
+/*lettertype*/
+body,header,footer{
+  font-family: helvetica;
+}
+
+img{
+  border-radius:5px;
+}
+/* uitlijnen afbeeldinge voorpagina */
+.center-block-homepage {
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  align-content: center center; /* or any specific width */
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping of items */
+}
+
+/* voor bronvermelding afbeelding */
+.image-container {
+    position: relative;
+    display: inline-block; /* Centers the block itself */
+  }
+  
+ /* voor pad tekst op afbeelding */
+.text-overlay_pad {
+  position: absolute;
+  bottom: 80px;
+  left: 10px;
+  color: white;
+  font-size:14px;
+  padding:8px;
+  background-color: #bc0031;
+  border-radius:20px;
+  font-weight:bold;
+}
+
+/* voor tekst op afbeelding */
+.text-overlay_question {
+  position: absolute;
+  bottom: 15px;
+  left: 10px;
+  color: white;
+  font-size:18px;
+  font-weight:bolder;
+}
+
+/* kleur tekst onder nieuwsafbeeldingen*/
+a.color {
+  color: black;
+  font-family: helvetica;
+  font-weight: bold;
+}
+
+a.color:hover p {
+  color: #bc0031; 
+}
+
+.non-clickable-text {
+  pointer-events: none;
+  font-weight:100;
+}
+
+/* card voor nieuwsafbeeldingen klein */
+.card_news {
+  font-family: helvetica;
+  width: 200px;
+  min-width: 200px;
+  height: 50px;
+  background: white;
+  flex-direction: column;
+  transition: 0.2s;
+  margin-right: 15px;
+}
+
+.white_border_20{
+  height:20px;
+  background-color: white; 
+  background-size: cover;
+}
+
+/* card voor nieuws top 20 */
+.card_top20 {
+  font-family: helvetica;
+  max-width: 421px; /* Use max-width for scalability */
+  width: 100%; /* Make it responsive */
+  min-width: 300px; /* Minimum size */
+  height: auto; /* Adjust height automatically */
+  background: white;
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 0 1rem rgba(204, 198, 198, 0.793);
+  display: flex; /* Ensure flex is properly set */
+  flex-direction: column;
+  transition: 0.2s;
+  margin-bottom: 20px; /* Add some margin at the bottom */
+}
+
+.card_nagging {
+  font-family: helvetica;
+  width: 700px;
+  height: 230px;
+  background: #f3f3f0;
+  flex-direction: column;
+  transition: 0.2s;
+}
+
+.margin_card{
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  align-content: center center;
+  margin-top:10px;
+}
+
+span.margin_popup{
+  margin-right:10px;
+}
+
+.popup {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+.popup-content {
+  background-color: white;
+  margin: 10% auto;
+  padding: 20px;
+  border: 1px solid #888888;
+  width: 30%;
+  font-weight: bolder;
+}
+.popup-content button {
+  display: block;
+  margin: 0 auto;
+}
+.show {
+  display: block;
+}
+
+span.margin_popup{
+  margin-right:10px;
+}
+
+span.margin{
+  margin-top:10px;
+}
+
+
+
+button.style{
+  background-color:white;
+  color:#bc0031;
+  font-family:helvetica;
+  border-color:white;
+  border-radius:5px;
+  font-weight:bold;
+}
+
+
+p.grey_border_20{
+  height:20px;
+  background-color: #f3f3f0; 
+  width:700px;
+  height:20px;
+}
+
+.card_obstruction {
+  font-family: helvetica;
+  width: 700px;
+  height: 230px;
+  background: #f3f3f0;
+  flex-direction: column;
+  transition: 0.2s;
+}
+
+.card_sneaking {
+  font-family: helvetica;
+  width: 700px;
+  height: 210px;
+  background: #f3f3f0;
+  flex-direction: column;
+  transition: 0.2s;
+}
+
+.content-with-image {
+  display: flex;
+  align-items: center; /* Vertically center the items */
+  justify-content: space-between; /* Space between text and image */
+  margin-left:20px;
+  margin-top:10px;
+}
+
+.card_volgende {
+  font-family: helvetica;
+  width: 300px;
+  height: 50px;
+  background: white;
+  border-radius:5px;
+  box-shadow: 0 0 1rem rgba(204, 198, 198, 0.793);
+  flex-direction: column;
+  transition: 0.2s;
+}
+
+
+div.margin_APC{
+  margin-left:500px;
+}
