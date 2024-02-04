@@ -62,7 +62,7 @@ p.APC{
   }
 
   p.tussenkop{
-    font-size: 18x;
+    font-size: larger;
     font-weight: bold;
   }
 
@@ -109,7 +109,6 @@ p.APC{
   }
 
   p.tussenkop2{
-    font-size: 12x;
-    color:#bc0031;
+    font-size: medium;
     font-weight:bold;
   }
