@@ -99,7 +99,7 @@ a.color:hover p {
 .card_nagging {
   font-family: helvetica;
   width: 700px;
-  height: 230px;
+  height: 240px;
   background: #f3f3f0;
   flex-direction: column;
   transition: 0.2s;
@@ -174,7 +174,7 @@ p.grey_border_20{
 .card_obstruction {
   font-family: helvetica;
   width: 700px;
-  height: 250px;
+  height: 270px;
   background: #f3f3f0;
   flex-direction: column;
   transition: 0.2s;
